@@ -133,7 +133,7 @@ The dashboard was designed to provide a management-level view while allowing use
 
  Key Findings
 
-Full detail, evidence, and recommendations are documented in `executive_summary.md` and `day9_management_answers.md`. Summary highlights:
+Full detail, evidence, and recommendations are documented in `executive_summary.md` and `reports/day9_management_answers.md`. Summary highlights:
 
 * Revenue fluctuates considerably rather than trending steadily — May was strongest (GH₵602,685.75, +65.03% vs. April), June and August both declined sharply (-42.04% and -39.22% respectively).
 * Greater Accra and Western lead regionally (22.67% and 19.77% of revenue respectively), but revenue is not concentrated in one region — every region contributes at least 12.58%.
@@ -178,8 +178,7 @@ JOINs (including LEFT JOIN, for customers with no matching orders) were used to 
 1. Import `customers.csv`, `products.csv`, and `orders.csv` into MySQL using the structure in `sql/database_setup.sql`.
 2. Run the queries in `sql/day5_queries.sql`, `sql/day6_advanced_analysis.sql`, and `sql/day8_validation_and_advanced.sql` in order to reproduce the SQL-side analysis.
 3. Open `powerbi/sales_dashboard_final.pbix` in Power BI Desktop to view and interact with the dashboard. No sign-in is required to open or view the file locally.
-4. Refer to `day8_validation.md` for QA checks and `executive_summary.md` / `day9_management_answers.md` for business findings.
-
+4. Refer to `reports/day8_validation.md` for QA checks and `executive_summary.md` / `reports/day9_management_answers.md` for business findings.
  Conclusion
 
 This project demonstrates an end-to-end data analytics workflow, from data cleaning and validation through SQL analysis and interactive business intelligence reporting.

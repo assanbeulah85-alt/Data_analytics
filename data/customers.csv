@@ -1,0 +1,121 @@
+CustomerID,CustomerName,Region,Segment
+C001,Kwame Mensah,Northern,SME
+C002,Kofi Boateng,Ashanti,Corporate
+C003,Kwame Sarpong,Northern,Corporate
+C004,Akosua Boadu,Central,Retail
+C005,Ama Owusu,Ashanti,Retail
+C006,Priscilla Boadu,Greater Accra,Corporate
+C007,Abena Tetteh,Northern,Corporate
+C008,Ibrahim Agyeman,Ashanti,SME
+C009,Mariam Ofori,Greater Accra,Retail
+C010,Michael Appiah,Western,Retail
+C011,Abena Quaye,Western,Retail
+C012,Akosua Agyeman,Greater Accra,SME
+C013,Daniel Boadu,Western,Retail
+C014,Grace Darko,Greater Accra,SME
+C015,Akosua Darko,Western,Corporate
+C016,Joseph Issah,Western,Corporate
+C017,Abena Tetteh,Greater Accra,Retail
+C018,Kofi Quaye,Western,Retail
+C019,Kofi Amankwah,Greater Accra,SME
+C020,Adwoa Addo,Northern,SME
+C021,Yaw Appiah,Western,Retail
+C022,Adwoa Tetteh,Northern,Corporate
+C023,Akosua Boadu,Northern,Retail
+C024,Ibrahim Tetteh,Ashanti,Retail
+C025,Grace Agyeman,Western,Corporate
+C026,Ibrahim Boateng,Northern,SME
+C027,Kojo Boateng,Greater Accra,SME
+C028,Linda Ofori,Greater Accra,Retail
+C029,Mariam Issah,Northern,SME
+C030,Abena Sarpong,Central,SME
+C031,Grace Asare,Western,Retail
+C032,Kofi Tetteh,Eastern,Corporate
+C033,Adwoa Tetteh,Eastern,SME
+C034,Mariam Agyeman,Western,Retail
+C035,Efua Darko,Central,Retail
+C036,Kojo Amankwah,Greater Accra,Retail
+C037,Yaw Quaye,Northern,SME
+C038,Joseph Owusu,Central,SME
+C039,Joseph Addo,Eastern,SME
+C040,Ibrahim Amankwah,Greater Accra,Corporate
+C041,Kwame Sarpong,Eastern,SME
+C042,Esi Owusu,Western,SME
+C043,Yaw Addo,Greater Accra,Corporate
+C044,Adwoa Darko,Ashanti,Corporate
+C045,Kwame Amankwah,Northern,SME
+C046,Priscilla Boadu,Ashanti,Retail
+C047,Daniel Quaye,Ashanti,Corporate
+C048,Priscilla Issah,Greater Accra,Corporate
+C049,Esi Addo,Greater Accra,Retail
+C050,Daniel Issah,Western,Retail
+C051,Kojo Boateng,Eastern,Retail
+C052,Akosua Tetteh,Central,Retail
+C053,Ibrahim Quaye,Ashanti,Retail
+C054,Samuel Darko,Ashanti,SME
+C055,Priscilla Amankwah,Eastern,SME
+C056,Abena Issah,Eastern,Corporate
+C057,Abena Tetteh,Western,SME
+C058,Daniel Addo,Eastern,SME
+C059,Kwame Boateng,Ashanti,Retail
+C060,Esi Mensah,Eastern,Corporate
+C061,Kofi Boadu,Ashanti,Retail
+C062,Akosua Tetteh,Northern,Retail
+C063,Kofi Owusu,Greater Accra,SME
+C064,Akosua Darko,Ashanti,SME
+C065,Samuel Boateng,Eastern,Retail
+C066,Mariam Boadu,Central,Retail
+C067,Samuel Quaye,Central,Retail
+C068,Kwame Owusu,Northern,SME
+C069,Daniel Agyeman,Central,SME
+C070,Kojo Sarpong,Northern,Corporate
+C071,Kwame Mensah,Central,Corporate
+C072,Esi Quaye,Greater Accra,Retail
+C073,Abena Boateng,Eastern,SME
+C074,Efua Agyeman,Ashanti,SME
+C075,Grace Boateng,Greater Accra,SME
+C076,Ibrahim Owusu,Greater Accra,Corporate
+C077,Ibrahim Amankwah,Greater Accra,Retail
+C078,Kofi Asare,Central,SME
+C079,Samuel Boateng,Central,Retail
+C080,Yaw Agyeman,Greater Accra,SME
+C081,Adwoa Issah,Central,SME
+C082,Michael Tetteh,Northern,Corporate
+C083,Samuel Asare,Ashanti,SME
+C084,Abena Mensah,Eastern,Corporate
+C085,Ibrahim Mensah,Northern,SME
+C086,Kojo Mensah,Eastern,SME
+C087,Priscilla Issah,Eastern,Retail
+C088,Kojo Darko,Greater Accra,Retail
+C089,Akosua Boadu,Greater Accra,Corporate
+C090,Kofi Agyeman,Greater Accra,Corporate
+C091,Kofi Boadu,Eastern,Retail
+C092,Joseph Owusu,Central,Corporate
+C093,Mariam Boadu,Eastern,SME
+C094,Adwoa Boateng,Northern,Corporate
+C095,Esi Boateng,Western,SME
+C096,Efua Sarpong,Northern,SME
+C097,Grace Appiah,Greater Accra,Retail
+C098,Grace Boadu,Eastern,Retail
+C099,Akosua Darko,Ashanti,Corporate
+C100,Adwoa Asare,Western,Retail
+C101,Kofi Appiah,Western,Retail
+C102,Grace Amankwah,Eastern,Corporate
+C103,Nana Boadu,Northern,Corporate
+C104,Ama Sarpong,Eastern,SME
+C105,Kwame Issah,Ashanti,SME
+C106,Kwame Issah,Greater Accra,Corporate
+C107,Ibrahim Asare,Western,SME
+C108,Joseph Boateng,Northern,SME
+C109,Abena Sarpong,Northern,SME
+C110,Priscilla Addo,Western,Retail
+C111,Akosua Sarpong,Central,SME
+C112,Kojo Mensah,Western,Retail
+C113,Adwoa Asare,Northern,SME
+C114,Ibrahim Tetteh,Central,Corporate
+C115,Ama Owusu,Greater Accra,Corporate
+C116,Efua Darko,Greater Accra,SME
+C117,Mariam Darko,Ashanti,SME
+C118,Efua Mensah,Western,SME
+C119,Kojo Issah,Western,Retail
+C120,Kofi Sarpong,Greater Accra,SME

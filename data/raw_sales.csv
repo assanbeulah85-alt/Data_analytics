@@ -1,0 +1,1013 @@
+OrderID,OrderDate,CustomerID,CustomerName,Region,Segment,ProductID,Product,Category,Quantity,UnitPrice,SalesPerson,PaymentMethod
+O00001,16/08/2026,C100,Adwoa Asare,Western,Retail,P018,Ethernet Cable 10m,Networking,5,99.75,Francis Amoah,Card
+O00002,11/08/2026,C119,Kojo Issah,Western,Retail,P008,Performance Laptop,Computers,1,8200,David Kwarteng,Mobile Money
+O00003,21/07/2026,C023,Akosua Boadu,Northern,Retail,P011,Flash Drive 128GB,Storage,6,110,Cynthia Aidoo,Card
+O00004,09/04/2026,C101,Kofi Appiah,Western,Retail,P004,24-inch Monitor,Displays,5,1450,Benjamin Osei,Card
+O00005,01/04/2026,C105,Kwame Issah,Ashanti,SME,P015,Bluetooth Speaker,Audio,1,420,Benjamin Osei,Mobile Money
+O00006,14/04/2026,C085,Ibrahim Mensah,Northern,SME,P007,Office Laptop,Computers,1,4940,Cynthia Aidoo,Bank Transfer
+O00007,14/04/2026,C083,Samuel Asare,Ashanti,SME,P017,Network Switch,Networking,3,798,Cynthia Aidoo,Mobile Money
+O00008,16/02/2026,C015,Akosua Darko,Western,Corporate,P009,Tablet,Computers,2,3100,Akua Mensimah,Mobile Money
+O00009,31/03/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P014,Noise-Cancelling Headset,Audio,3,650,David Kwarteng,Mobile Money
+O00010,08/03/2026,C050,Daniel Issah,Western,Retail,P007,Office Laptop,Computers,1,5200,Akua Mensimah,Card
+O00011,19/01/2026,C047,Daniel Quaye,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,6,650,Esther Nyarko,Bank Transfer
+O00012,05/07/2026,C085,Ibrahim Mensah,Northern,SME,P004,24-inch Monitor,Displays,5,1522.5,Cynthia Aidoo,Cash
+O00013,29/06/2026,C042,Esi Owusu,Western,SME,P013,Webcam,Accessories,1,320,Benjamin Osei,Cash
+O00014,24/06/2026,C086,Kojo Mensah,Eastern,SME,P013,Webcam,Accessories,3,320,Esther Nyarko,Bank Transfer
+O00015,03/08/2026,C052,Akosua Tetteh,Central,Retail,P018,Ethernet Cable 10m,Networking,1,95,Benjamin Osei,Cash
+O00016,01/05/2026,C101,Kofi Appiah,Western,Retail,P011,Flash Drive 128GB,Storage,2,110,Esther Nyarko,Cash
+O00017,19/06/2026,C102,Grace Amankwah,Eastern,Corporate,P006,Laptop Stand,Accessories,1,168,Francis Amoah,Bank Transfer
+O00018,23/06/2026,C012,Akosua Agyeman,Greater Accra,SME,P008,Performance Laptop,Computers,1,8200,Benjamin Osei,Mobile Money
+O00019,03/05/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P008,Performance Laptop,Computers,3,7790,David Kwarteng,Cash
+O00020,04/07/2026,C114,Ibrahim Tetteh,Central,Corporate,P007,Office Laptop,Computers,3,5200,David Kwarteng,Card
+O00021,18/08/2026,C019,Kofi Amankwah,Greater Accra,SME,P001,Wireless Mouse,Accessories,4,80.75,David Kwarteng,Card
+O00022,30/04/2026,C023,Akosua Boadu,Northern,Retail,P017,Network Switch,Networking,1,760,Akua Mensimah,Cash
+O00023,21/06/2026,C018,Kofi Quaye,Western,Retail,P015,Bluetooth Speaker,Audio,2,441,Esther Nyarko,Bank Transfer
+O00024,07/06/2026,C097,Grace Appiah,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,-4,441,David Kwarteng,Cash
+O00025,11/07/2026,C115,Ama Owusu,Greater Accra,Corporate,P006,Laptop Stand,Accessories,5,160,Cynthia Aidoo,Card
+O00026,17/07/2026,C108,Joseph Boateng,Northern,SME,P009,Tablet,Computers,4,3100,Francis Amoah,Card
+O00027,21/01/2026,C036,Kojo Amankwah,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,3,420,Cynthia Aidoo,Bank Transfer
+O00028,22/01/2026,C041,Kwame Sarpong,Eastern,SME,P018,Ethernet Cable 10m,Networking,1,95,David Kwarteng,Card
+O00029,18/01/2026,C091,Kofi Boadu,Eastern,Retail,P007,Office Laptop,Computers,2,5200,Esther Nyarko,Cash
+O00030,23/02/2026,C054,Samuel Darko,Ashanti,SME,P002,Mechanical Keyboard,Accessories,4,240,Esther Nyarko,Mobile Money
+O00031,04/05/2026,C110,Priscilla Addo,Western,Retail,P013,Webcam,Accessories,1,320,Cynthia Aidoo,Cash
+O00032,19/05/2026,C110,Priscilla Addo,Western,Retail,P014,Noise-Cancelling Headset,Audio,3,682.5,Esther Nyarko,Card
+O00033,12/03/2026,C063,Kofi Owusu,Greater Accra,SME,P008,Performance Laptop,Computers,2,7790,David Kwarteng,Bank Transfer
+O00034,06/07/2026,C086,Kojo Mensah,Eastern,SME,P013,Webcam,Accessories,1,320,Benjamin Osei,Mobile Money
+O00035,02/06/2026,C117,Mariam Darko,Ashanti,SME,P013,Webcam,Accessories,2,304,Akua Mensimah,Cash
+O00036,17/02/2026,C018,Kofi Quaye,Western,Retail,P015,Bluetooth Speaker,Audio,1,420,Cynthia Aidoo,Card
+O00037,29/03/2026,C059,Kwame Boateng,Ashanti,Retail,P011,Flash Drive 128GB,Storage,4,110,Cynthia Aidoo,Cash
+O00038,02/05/2026,C033,Adwoa Tetteh,Eastern,SME,P003,USB-C Hub,Accessories,1,189,Akua Mensimah,Bank Transfer
+O00039,20/07/2026,C029,Mariam Issah,Northern,SME,P003,USB-C Hub,Accessories,8,171,Akua Mensimah,Card
+O00040,10/06/2026,C026,Ibrahim Boateng,Northern,SME,P001,Wireless Mouse,Accessories,1,85,David Kwarteng,Mobile Money
+O00041,01/05/2026,C073,Abena Boateng,Eastern,SME,P007,Office Laptop,Computers,3,5200,Benjamin Osei,Mobile Money
+O00042,22/03/2026,C100,Adwoa Asare,Western,Retail,P006,Laptop Stand,Accessories,1,152,Cynthia Aidoo,Cash
+O00043,21/01/2026,C051,Kojo Boateng,Eastern,Retail,P007,Office Laptop,Computers,3,5200,Akua Mensimah,Bank Transfer
+O00044,24/07/2026,C109,Abena Sarpong,Northern,SME,P004,24-inch Monitor,Displays,10,1377.5,Cynthia Aidoo,Cash
+O00045,19/01/2026,C085,Ibrahim Mensah,Northern,SME,P012,External HDD 2TB,Storage,2,480,Akua Mensimah,Cash
+O00046,29/01/2026,C106,Kwame Issah,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,2,590,Francis Amoah,Cash
+O00047,23/04/2026,C091,Kofi Boadu,Eastern,Retail,P005,27-inch Monitor,Displays,1,2310,Francis Amoah,Bank Transfer
+O00048,19/07/2026,C079,Samuel Boateng,Central,Retail,P018,Ethernet Cable 10m,Networking,2,95,Francis Amoah,Bank Transfer
+O00049,02/08/2026,C042,Esi Owusu,Western,SME,P008,Performance Laptop,Computers,6,8200,David Kwarteng,Card
+O00050,27/05/2026,C097,Grace Appiah,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,3,420,Cynthia Aidoo,Mobile Money
+O00051,17/02/2026,C064,Akosua Darko,Ashanti,SME,P011,Flash Drive 128GB,Storage,2,110,Cynthia Aidoo,Bank Transfer
+O00052,24/05/2026,C036,Kojo Amankwah,Greater Accra,Retail,P009,Tablet,Computers,1,3100,Akua Mensimah,Card
+O00053,07/05/2026,C093,Mariam Boadu,Eastern,SME,P014,Noise-Cancelling Headset,Audio,2,650,Francis Amoah,Cash
+O00054,26/04/2026,C083,Samuel Asare,Ashanti,SME,P016,Wi-Fi Router,Networking,4,560.5,Cynthia Aidoo,Card
+O00055,21/03/2026,C052,Akosua Tetteh,Central,Retail,P008,Performance Laptop,Computers,3,8200,David Kwarteng,Bank Transfer
+O00056,27/03/2026,C055,Priscilla Amankwah,Eastern,SME,P018,Ethernet Cable 10m,Networking,2,95,Cynthia Aidoo,Bank Transfer
+O00057,01/02/2026,C033,Adwoa Tetteh,Eastern,SME,P008,Performance Laptop,Computers,3,8200,Akua Mensimah,Card
+O00058,10/07/2026,C025,Grace Agyeman,Western,Corporate,P007,Office Laptop,Computers,2,5460,Esther Nyarko,Bank Transfer
+O00059,18/03/2026,C013,Daniel Boadu,Western,Retail,P007,Office Laptop,Computers,1,5200,Cynthia Aidoo,Mobile Money
+O00060,03/02/2026,C091,Kofi Boadu,Eastern,Retail,P018,Ethernet Cable 10m,Networking,1,90.25,Esther Nyarko,Bank Transfer
+O00061,14/06/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P005,27-inch Monitor,Displays,5,2200,Akua Mensimah,Mobile Money
+O00062,02/05/2026,C074,Efua Agyeman,Ashanti,SME,P010,External SSD 1TB,Storage,2,720,Benjamin Osei,Mobile Money
+O00063,31/01/2026,C033,Adwoa Tetteh,Eastern,SME,P016,Wi-Fi Router,Networking,4,590,David Kwarteng,Mobile Money
+O00064,09/02/2026,C074,Efua Agyeman,Ashanti,SME,P002,Mechanical Keyboard,Accessories,1,252,Cynthia Aidoo,Mobile Money
+O00065,24/05/2026,C032,Kofi Tetteh,Eastern,Corporate,P004,24-inch Monitor,Displays,4,1522.5,Esther Nyarko,Card
+O00066,09/04/2026,C100,Adwoa Asare,Western,Retail,P017,Network Switch,Networking,2,760,Cynthia Aidoo,Cash
+O00067,07/06/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,8,228,Benjamin Osei,Card
+O00068,11/02/2026,C034,Mariam Agyeman,western,Retail,P003,USB-C Hub,Accessories,1,189,Akua Mensimah,Card
+O00069,27/04/2026,C001,Kwame Mensah,Northern,SME,P014,Noise-Cancelling Headset,Audio,3,650,Cynthia Aidoo,Mobile Money
+O00070,01/07/2026,C030,Abena Sarpong,Central,SME,P010,External SSD 1TB,Storage,1,720,Akua Mensimah,Card
+O00071,22/07/2026,C119,Kojo Issah,Western,Retail,P009,Tablet,Computers,4,3255,Francis Amoah,Card
+O00072,21/05/2026,C055,Priscilla Amankwah,Eastern,SME,P004,24-inch Monitor,Displays,1,1450,Cynthia Aidoo,Card
+O00073,13/02/2026,C010,Michael Appiah,Western,Retail,P002,Mechanical Keyboard,Accessories,4,252,Francis Amoah,Bank Transfer
+O00074,01/05/2026,C057,Abena Tetteh,Western,SME,P004,24-inch Monitor,Displays,3,1450,Cynthia Aidoo,Cash
+O00075,04/06/2026,C057,Abena Tetteh,Western,SME,P003,USB-C Hub,Accessories,1,180,Francis Amoah,Bank Transfer
+O00076,08/01/2026,C078,Kofi Asare,Central,SME,P009,Tablet,Computers,1,3255,Esther Nyarko,Mobile Money
+O00077,29/05/2026,C098,Grace Boadu,Eastern,Retail,P009,Tablet,Computers,1,3100,David Kwarteng,Cash
+O00078,17/02/2026,C118,Efua Mensah,Western,SME,P009,Tablet,Computers,10,3100,Francis Amoah,Cash
+O00079,01/04/2026,C012,Akosua Agyeman,Greater Accra,,P016,Wi-Fi Router,Networking,2,590,Francis Amoah,Mobile Money
+O00080,27/03/2026,C110,Priscilla Addo,Western,Retail,P006,Laptop Stand,Accessories,2,160,Cynthia Aidoo,Cash
+O00081,11/01/2026,C105,Kwame Issah,Ashanti,SME,P018,Ethernet Cable 10m,Networking,2,95,Cynthia Aidoo,Bank Transfer
+O00082,11/08/2026,C015,Akosua Darko,Western,Corporate,P013,Webcam,Accessories,2,304,Francis Amoah,Cash
+O00083,19/02/2026,C053,Ibrahim Quaye,ashanti,Retail,P002,Mechanical Keyboard,Accessories,2,252,David Kwarteng,Cash
+O00084,23/02/2026,C098,Grace Boadu,Eastern,Retail,P002,Mechanical Keyboard,Accessories,1,240,Cynthia Aidoo,Cash
+O00085,02/02/2026,C113,Adwoa Asare,Northern,SME,P016,Wi-Fi Router,Networking,1,619.5,Benjamin Osei,Card
+O00086,05/01/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P018,Ethernet Cable 10m,Networking,2,90.25,Benjamin Osei,Mobile Money
+O00087,16/06/2026,C060,Esi Mensah,Eastern,Corporate,P004,24-inch Monitor,Displays,4,1450,Francis Amoah,Bank Transfer
+O00088,18/04/2026,C066,Mariam Boadu,Central,Retail,P009,Tablet,Computers,4,3100,Benjamin Osei,Cash
+O00089,10/04/2026,C071,Kwame Mensah,Central,Corporate,P005,27-inch Monitor,Displays,1,2310,Esther Nyarko,Card
+O00090,13/03/2026,C111,Akosua Sarpong,central,SME,P003,USB-C Hub,Accessories,4,180,Cynthia Aidoo,Bank Transfer
+O00091,15/03/2026,C106,Kwame Issah,Greater Accra,Corporate,P001,Wireless Mouse,Accessories,3,89.25,Esther Nyarko,Cash
+O00092,26/04/2026,C111,Akosua Sarpong,Central,SME,P005,27-inch Monitor,Displays,2,2200,Cynthia Aidoo,Cash
+O00093,12/08/2026,C059,Kwame Boateng,Ashanti,Retail,P011,Flash Drive 128GB,Storage,1,110,Esther Nyarko,Cash
+O00094,13/01/2026,C030,Abena Sarpong,Central,SME,P014,Noise-Cancelling Headset,Audio,1,650,Francis Amoah,Cash
+O00095,08/05/2026,C050,Daniel Issah,Western,Retail,P005,27-inch Monitor,Displays,8,2200,Esther Nyarko,Bank Transfer
+O00096,13/08/2026,C112,Kojo Mensah,Western,Retail,P004,24-inch Monitor,Displays,5,1377.5,Esther Nyarko,Cash
+O00097,16/04/2026,C002,Kofi Boateng,Ashanti,Corporate,P005,27-inch Monitor,Displays,5,2200,Akua Mensimah,Cash
+O00098,29/03/2026,C101,Kofi Appiah,Western,Retail,P009,Tablet,Computers,3,3100,Francis Amoah,Mobile Money
+O00099,08/08/2026,C110,Priscilla Addo,Western,Retail,P011,Flash Drive 128GB,Storage,3,115.5,David Kwarteng,Bank Transfer
+O00100,13/08/2026,C081,Adwoa Issah,Central,SME,P016,Wi-Fi Router,Networking,2,619.5,Akua Mensimah,Card
+O00101,01/03/2026,C081,Adwoa Issah,Central,SME,P010,External SSD 1TB,Storage,3,720,Akua Mensimah,Mobile Money
+O00102,28/06/2026,C057,Abena Tetteh,Western,SME,P006,Laptop Stand,Accessories,1,152,Akua Mensimah,Bank Transfer
+O00103,18/03/2026,C102,Grace Amankwah,Eastern,Corporate,P002,Mechanical Keyboard,Accessories,2,240,Benjamin Osei,Card
+O00104,26/05/2026,C068,Kwame Owusu,Northern,SME,P014,Noise-Cancelling Headset,Audio,3,650,Benjamin Osei,Card
+O00105,09/06/2026,C011,Abena Quaye,Western,Retail,P013,Webcam,Accessories,3,320,Esther Nyarko,Card
+O00106,14/06/2026,C030,Abena Sarpong,Central,SME,P015,Bluetooth Speaker,Audio,1,420,Francis Amoah,Mobile Money
+O00107,20/08/2026,C116,Efua Darko,Greater Accra,SME,P015,Bluetooth Speaker,Audio,1,441,Benjamin Osei,Mobile Money
+O00108,01/06/2026,C057,Abena Tetteh,Western,SME,P012,External HDD 2TB,Storage,1,480,Francis Amoah,Bank Transfer
+O00109,21/02/2026,C059,Kwame Boateng,Ashanti,Retail,P010,External SSD 1TB,Storage,10,720,Akua Mensimah,Card
+O00110,29/05/2026,C049,Esi Addo,Greater Accra,Retail,P012,External HDD 2TB,Storage,1,480,Akua Mensimah,Cash
+O00111,26/05/2026,C036,Kojo Amankwah,Greater Accra,Retail,P001,Wireless Mouse,Accessories,5,80.75,Esther Nyarko,Cash
+O00112,19/07/2026,C107,Ibrahim Asare,Western,,P010,External SSD 1TB,Storage,4,756,Cynthia Aidoo,Card
+O00113,09/06/2026,C082,Michael Tetteh,Northern,Corporate,P007,Office Laptop,Computers,1,5200,Francis Amoah,Mobile Money
+O00114,22/03/2026,C116,Efua Darko,Greater Accra,SME,P002,Mechanical Keyboard,Accessories,4,228,Esther Nyarko,Bank Transfer
+O00115,25/01/2026,C094,Adwoa Boateng,Northern,,P005,27-inch Monitor,Displays,5,2200,Francis Amoah,Cash
+O00116,04/02/2026,C023,Akosua Boadu,Northern,Retail,P007,Office Laptop,Computers,4,5200,Esther Nyarko,Bank Transfer
+O00117,08/03/2026,C107,Ibrahim Asare,Western,SME,P006,Laptop Stand,Accessories,6,160,Cynthia Aidoo,Bank Transfer
+O00118,01/05/2026,C103,Nana Boadu,Northern,Corporate,P004,24-inch Monitor,Displays,8,1450,Benjamin Osei,Cash
+O00119,05/04/2026,C109,Abena Sarpong,Northern,SME,P018,Ethernet Cable 10m,Networking,1,95,Akua Mensimah,Bank Transfer
+O00120,28/04/2026,C069,Daniel Agyeman,Central,SME,P004,24-inch Monitor,Displays,2,1450,Esther Nyarko,Cash
+O00121,29/01/2026,C106,Kwame Issah,Greater Accra,Corporate,P012,External HDD 2TB,Storage,3,480,Akua Mensimah,Bank Transfer
+O00122,16/06/2026,C118,Efua Mensah,Western,SME,P008,Performance Laptop,Computers,1,8200,Francis Amoah,Bank Transfer
+O00123,31/01/2026,C084,Abena Mensah,Eastern,Corporate,P014,Noise-Cancelling Headset,Audio,1,617.5,Cynthia Aidoo,Cash
+O00124,03/03/2026,C015,Akosua Darko,Western,Corporate,P004,24-inch Monitor,Displays,5,1450,David Kwarteng,Cash
+O00125,19/04/2026,C048,Priscilla Issah,Greater Accra,Corporate,P018,Ethernet Cable 10m,Networking,2,95,David Kwarteng,Mobile Money
+O00126,08/06/2026,C107,Ibrahim Asare,Western,SME,P016,Wi-Fi Router,Networking,2,590,Akua Mensimah,Bank Transfer
+O00127,25/04/2026,C028,Linda Ofori,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,8,420,Akua Mensimah,Bank Transfer
+O00128,17/01/2026,C070,Kojo Sarpong,Northern,Corporate,P012,External HDD 2TB,Storage,2,480,Akua Mensimah,Cash
+O00129,15/06/2026,C012,Akosua Agyeman,Greater Accra,SME,P007,Office Laptop,Computers,3,4940,Akua Mensimah,Bank Transfer
+O00130,22/07/2026,C032,Kofi Tetteh,Eastern,Corporate,P005,27-inch Monitor,Displays,2,2090,Esther Nyarko,Card
+O00131,29/07/2026,C076,Ibrahim Owusu,Greater Accra,Corporate,P007,Office Laptop,Computers,5,5200,Benjamin Osei,Mobile Money
+O00132,04/02/2026,C036,Kojo Amankwah,Greater Accra,Retail,P005,27-inch Monitor,Displays,2,2200,Akua Mensimah,Mobile Money
+O00133,03/04/2026,C017,Abena Tetteh,Greater Accra,Retail,P001,Wireless Mouse,Accessories,4,85,Esther Nyarko,Bank Transfer
+O00134,10/03/2026,C003,Kwame Sarpong,Northern,Corporate,P006,Laptop Stand,Accessories,1,160,Esther Nyarko,Mobile Money
+O00135,03/05/2026,C096,Efua Sarpong,Northern,SME,P003,USB-C Hub,Accessories,2,180,Esther Nyarko,Mobile Money
+O00136,27/02/2026,C058,Daniel Addo,Eastern,SME,P017,Network Switch,Networking,6,,Francis Amoah,Bank Transfer
+O00137,17/01/2026,C059,Kwame Boateng,Ashanti,Retail,P001,Wireless Mouse,Accessories,10,85,David Kwarteng,Mobile Money
+O00138,20/01/2026,C063,Kofi Owusu,Greater Accra,SME,P015,Bluetooth Speaker,Audio,5,420,Esther Nyarko,Card
+O00139,13/03/2026,C009,Mariam Ofori,Greater Accra,Retail,P005,27-inch Monitor,Displays,3,2310,Esther Nyarko,Bank Transfer
+O00140,18/03/2026,C049,Esi Addo,Greater Accra,Retail,P017,Network Switch,Networking,2,798,David Kwarteng,Mobile Money
+O00141,08/08/2026,C102,Grace Amankwah,Eastern,Corporate,P004,24-inch Monitor,Displays,3,1522.5,Francis Amoah,Card
+O00142,17/08/2026,C056,Abena Issah,Eastern,Corporate,P015,Bluetooth Speaker,Audio,1,420,David Kwarteng,Cash
+O00143,23/03/2026,C054,Samuel Darko,Ashanti,SME,P004,24-inch Monitor,Displays,2,1450,Cynthia Aidoo,Card
+O00144,19/01/2026,C088,Kojo Darko,Greater Accra,Retail,P016,Wi-Fi Router,Networking,1,560.5,Akua Mensimah,Cash
+O00145,28/07/2026,C013,Daniel Boadu,Western,Retail,P012,External HDD 2TB,Storage,1,456,Esther Nyarko,Bank Transfer
+O00146,17/04/2026,C086,Kojo Mensah,Eastern,SME,P004,24-inch Monitor,Displays,2,1450,Francis Amoah,Mobile Money
+O00147,02/04/2026,C037,Yaw Quaye,Northern,SME,P010,External SSD 1TB,Storage,1,756,Benjamin Osei,Card
+O00148,28/02/2026,C085,Ibrahim Mensah,Northern,SME,P016,Wi-Fi Router,Networking,5,590,Esther Nyarko,Bank Transfer
+O00149,28/05/2026,C015,Akosua Darko,Western,Corporate,P009,Tablet,Computers,1,3100,Esther Nyarko,Mobile Money
+O00150,09/01/2026,C078,Kofi Asare,Central,SME,P009,Tablet,Computers,1,3100,Cynthia Aidoo,Bank Transfer
+O00151,12/08/2026,C001,Kwame Mensah,Northern,SME,P006,Laptop Stand,Accessories,1,160,Akua Mensimah,Card
+O00152,25/01/2026,C095,Esi Boateng,Western,,P001,Wireless Mouse,Accessories,3,85,David Kwarteng,Cash
+O00153,11/02/2026,C059,Kwame Boateng,Ashanti,Retail,P011,Flash Drive 128GB,Storage,2,110,Esther Nyarko,Mobile Money
+O00154,10/02/2026,C114,Ibrahim Tetteh,Central,Corporate,P002,Mechanical Keyboard,Accessories,1,252,Akua Mensimah,Mobile Money
+O00155,20/06/2026,C035,Efua Darko,Central,,P015,Bluetooth Speaker,Audio,2,441,David Kwarteng,Cash
+O00156,14/07/2026,C035,Efua Darko,Central,Retail,P007,Office Laptop,Computers,2,5200,David Kwarteng,Mobile Money
+O00157,16/05/2026,C037,Yaw Quaye,Northern,SME,P016,Wi-Fi Router,Networking,3,560.5,Benjamin Osei,Cash
+O00158,03/01/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P002,Mechanical Keyboard,Accessories,1,240,Benjamin Osei,Bank Transfer
+O00159,01/02/2026,C038,Joseph Owusu,Central,SME,P011,Flash Drive 128GB,Storage,1,110,Benjamin Osei,Card
+O00160,01/07/2026,C049,Esi Addo,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,1,99.75,Francis Amoah,Bank Transfer
+O00161,10/08/2026,C010,Michael Appiah,Western,Retail,P013,Webcam,Accessories,3,320,Akua Mensimah,Cash
+O00162,10/08/2026,C118,Efua Mensah,Western,SME,P003,USB-C Hub,Accessories,1,180,Esther Nyarko,Cash
+O00163,17/03/2026,C091,Kofi Boadu,Eastern,Retail,P014,Noise-Cancelling Headset,Audio,1,617.5,Cynthia Aidoo,Card
+O00164,02/08/2026,C103,Nana Boadu,Northern,Corporate,P015,Bluetooth Speaker,Audio,3,420,Akua Mensimah,Cash
+O00165,05/03/2026,C109,Abena Sarpong,Northern,SME,P004,24-inch Monitor,Displays,2,1450,Esther Nyarko,Mobile Money
+O00166,11/07/2026,C051,Kojo Boateng,Eastern,Retail,P010,External SSD 1TB,Storage,1,720,Benjamin Osei,Mobile Money
+O00167,17/05/2026,C066,Mariam Boadu,Central,Retail,P004,24-inch Monitor,Displays,2,1450,Cynthia Aidoo,Card
+O00168,08/02/2026,C031,Grace Asare,Western,Retail,P004,24-inch Monitor,Displays,1,1450,Esther Nyarko,Card
+O00169,16/02/2026,C098,Grace Boadu,Eastern,,P003,USB-C Hub,Accessories,8,180,David Kwarteng,Cash
+O00170,11/08/2026,C088,Kojo Darko,Greater Accra,Retail,P011,Flash Drive 128GB,Storage,8,110,Benjamin Osei,Cash
+O00171,25/04/2026,C009,Mariam Ofori,Greater Accra,Retail,P016,Wi-Fi Router,Networking,3,590,Esther Nyarko,Mobile Money
+O00172,20/01/2026,C046,Priscilla Boadu,Ashanti,Retail,P017,Network Switch,Networking,1,760,Akua Mensimah,Mobile Money
+O00173,21/01/2026,C048,Priscilla Issah,Greater Accra,Corporate,P010,External SSD 1TB,Storage,3,684,Esther Nyarko,Cash
+O00174,23/07/2026,C060,Esi Mensah,Eastern,Corporate,P018,Ethernet Cable 10m,Networking,3,90.25,David Kwarteng,Card
+O00175,10/05/2026,C042,Esi Owusu,Western,SME,P016,Wi-Fi Router,Networking,1,560.5,David Kwarteng,Mobile Money
+O00176,03/07/2026,C104,Ama Sarpong,Eastern,SME,P011,Flash Drive 128GB,Storage,1,110,Akua Mensimah,Card
+O00177,24/04/2026,C091,Kofi Boadu,Eastern,Retail,P015,Bluetooth Speaker,Audio,2,441,Benjamin Osei,Bank Transfer
+O00178,11/04/2026,C048,Priscilla Issah,Greater Accra,Corporate,P010,External SSD 1TB,Storage,2,720,Francis Amoah,Mobile Money
+O00179,18/01/2026,C102,Grace Amankwah,Eastern,Corporate,P011,Flash Drive 128GB,Storage,1,115.5,Francis Amoah,Cash
+O00180,06/07/2026,C037,Yaw Quaye,Northern,SME,P009,Tablet,Computers,5,3255,Benjamin Osei,Bank Transfer
+O00181,24/08/2026,C011,Abena Quaye,Western,Retail,P005,27-inch Monitor,Displays,2,2200,Benjamin Osei,Mobile Money
+O00182,08/04/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P018,Ethernet Cable 10m,Networking,3,95,Benjamin Osei,Mobile Money
+O00183,12/05/2026,C083,Samuel Asare,Ashanti,SME,P014,Noise-Cancelling Headset,Audio,2,650,Cynthia Aidoo,Card
+O00184,17/07/2026,C028,Linda Ofori,greater accra,Retail,P011,Flash Drive 128GB,Storage,2,110,Benjamin Osei,Card
+O00185,06/08/2026,C010,Michael Appiah,Western,Retail,P010,External SSD 1TB,Storage,4,756,Esther Nyarko,Mobile Money
+O00186,14/08/2026,C085,Ibrahim Mensah,Northern,SME,P011,Flash Drive 128GB,Storage,4,110,Esther Nyarko,Cash
+O00187,17/02/2026,C020,Adwoa Addo,Northern,SME,P006,Laptop Stand,Accessories,4,168,Benjamin Osei,Cash
+O00188,05/04/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P014,Noise-Cancelling Headset,Audio,3,650,David Kwarteng,Bank Transfer
+O00189,02/03/2026,C097,Grace Appiah,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,2,420,David Kwarteng,Card
+O00190,30/04/2026,C048,Priscilla Issah,Greater Accra,Corporate,P015,Bluetooth Speaker,Audio,4,420,Esther Nyarko,Cash
+O00191,26/07/2026,C021,Yaw Appiah,Western,Retail,P007,Office Laptop,Computers,3,5200,Akua Mensimah,Cash
+O00192,23/05/2026,C112,Kojo Mensah,Western,Retail,P012,External HDD 2TB,Storage,6,504,Akua Mensimah,Bank Transfer
+O00193,12/03/2026,C011,Abena Quaye,western,Retail,P006,Laptop Stand,Accessories,2,168,Benjamin Osei,Cash
+O00194,30/07/2026,C012,Akosua Agyeman,Greater Accra,SME,P008,Performance Laptop,Computers,2,8200,Akua Mensimah,Cash
+O00195,10/05/2026,C007,Abena Tetteh,Northern,Corporate,P013,Webcam,Accessories,2,320,Akua Mensimah,Bank Transfer
+O00196,24/03/2026,C029,Mariam Issah,Northern,SME,P001,Wireless Mouse,Accessories,6,85,Benjamin Osei,Card
+O00197,24/08/2026,C005,Ama Owusu,Ashanti,Retail,P010,External SSD 1TB,Storage,4,720,Francis Amoah,Cash
+O00198,21/08/2026,C058,Daniel Addo,Eastern,SME,P001,Wireless Mouse,Accessories,1,85,Benjamin Osei,Card
+O00199,20/04/2026,C071,Kwame Mensah,Central,Corporate,P017,Network Switch,Networking,1,760,Benjamin Osei,Bank Transfer
+O00200,04/03/2026,C016,Joseph Issah,Western,Corporate,P002,Mechanical Keyboard,Accessories,2,252,David Kwarteng,Mobile Money
+O00201,03/06/2026,C015,Akosua Darko,Western,Corporate,P016,Wi-Fi Router,Networking,2,619.5,Esther Nyarko,Card
+O00202,17/03/2026,C092,Joseph Owusu,Central,Corporate,P005,27-inch Monitor,Displays,2,2310,Cynthia Aidoo,Card
+O00203,18/02/2026,C074,Efua Agyeman,Ashanti,SME,P014,Noise-Cancelling Headset,Audio,3,617.5,Esther Nyarko,Bank Transfer
+O00204,21/05/2026,C009,Mariam Ofori,Greater Accra,Retail,P017,Network Switch,Networking,2,798,Esther Nyarko,Mobile Money
+O00205,13/01/2026,C050,Daniel Issah,Western,Retail,P016,Wi-Fi Router,Networking,3,590,Cynthia Aidoo,Mobile Money
+O00206,31/03/2026,C046,Priscilla Boadu,Ashanti,Retail,P003,USB-C Hub,Accessories,1,171,Esther Nyarko,Bank Transfer
+O00207,02/04/2026,C018,Kofi Quaye,Western,Retail,P002,Mechanical Keyboard,Accessories,2,240,Francis Amoah,Cash
+O00208,12/06/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,1,590,Akua Mensimah,Cash
+O00209,22/02/2026,C005,Ama Owusu,Ashanti,Retail,P010,External SSD 1TB,Storage,1,720,Akua Mensimah,Bank Transfer
+O00210,13/05/2026,C120,Kofi Sarpong,Greater Accra,SME,P010,External SSD 1TB,Storage,-2,756,David Kwarteng,Bank Transfer
+O00211,16/03/2026,C005,Ama Owusu,Ashanti,Retail,P007,Office Laptop,Computers,2,4940,Francis Amoah,Bank Transfer
+O00212,25/07/2026,C035,Efua Darko,Central,Retail,P004,24-inch Monitor,Displays,2,1450,Francis Amoah,Cash
+O00213,29/03/2026,C115,Ama Owusu,Greater Accra,Corporate,P013,Webcam,Accessories,8,320,Francis Amoah,Cash
+O00214,11/03/2026,C048,Priscilla Issah,Greater Accra,Corporate,P017,Network Switch,Networking,4,760,Akua Mensimah,Cash
+O00215,21/05/2026,C078,Kofi Asare,Central,SME,P006,Laptop Stand,Accessories,1,152,Akua Mensimah,Bank Transfer
+O00216,21/03/2026,C085,Ibrahim Mensah,Northern,SME,P010,External SSD 1TB,Storage,2,720,Benjamin Osei,Cash
+O00217,12/01/2026,C045,Kwame Amankwah,Northern,SME,P015,Bluetooth Speaker,Audio,3,420,Esther Nyarko,Cash
+O00218,21/01/2026,C036,Kojo Amankwah,Greater Accra,Retail,P002,Mechanical Keyboard,Accessories,3,240,Cynthia Aidoo,Card
+O00219,07/08/2026,C004,Akosua Boadu,Central,Retail,P005,27-inch Monitor,Displays,3,2200,Akua Mensimah,Card
+O00220,20/07/2026,C009,Mariam Ofori,Greater Accra,Retail,P008,Performance Laptop,Computers,3,8200,David Kwarteng,Mobile Money
+O00221,24/06/2026,C078,Kofi Asare,Central,SME,P005,27-inch Monitor,Displays,2,2200,Cynthia Aidoo,Cash
+O00222,28/05/2026,C098,Grace Boadu,Eastern,Retail,P003,USB-C Hub,Accessories,1,180,David Kwarteng,Bank Transfer
+O00223,06/03/2026,C084,Abena Mensah,Eastern,Corporate,P009,Tablet,Computers,8,2945,Francis Amoah,Card
+O00224,11/04/2026,C064,Akosua Darko,Ashanti,SME,P017,Network Switch,Networking,6,722,Cynthia Aidoo,Bank Transfer
+O00225,25/02/2026,C091,Kofi Boadu,Eastern,Retail,P015,Bluetooth Speaker,Audio,10,420,Francis Amoah,Cash
+O00226,05/02/2026,C026,Ibrahim Boateng,Northern,SME,P004,24-inch Monitor,Displays,5,1450,Benjamin Osei,Cash
+O00227,21/06/2026,C012,Akosua Agyeman,Greater Accra,SME,P011,Flash Drive 128GB,Storage,2,104.5,Esther Nyarko,Bank Transfer
+O00228,07/08/2026,C115,Ama Owusu,Greater Accra,Corporate,P010,External SSD 1TB,Storage,1,720,Cynthia Aidoo,Card
+O00229,23/07/2026,C016,Joseph Issah,Western,Corporate,P007,Office Laptop,Computers,1,5200,Akua Mensimah,Bank Transfer
+O00230,01/05/2026,C071,Kwame Mensah,Central,Corporate,P012,External HDD 2TB,Storage,4,504,Benjamin Osei,Mobile Money
+O00231,13/04/2026,C009,Mariam Ofori,Greater Accra,Retail,P010,External SSD 1TB,Storage,10,720,Esther Nyarko,Cash
+O00232,31/07/2026,C099,Akosua Darko,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,2,650,Cynthia Aidoo,Mobile Money
+O00233,25/06/2026,C058,Daniel Addo,Eastern,SME,P015,Bluetooth Speaker,Audio,2,420,Esther Nyarko,Card
+O00234,22/04/2026,C099,Akosua Darko,Ashanti,Corporate,P005,27-inch Monitor,Displays,2,2090,Akua Mensimah,Card
+O00235,12/02/2026,C039,Joseph Addo,Eastern,SME,P006,Laptop Stand,Accessories,1,160,Cynthia Aidoo,Bank Transfer
+O00236,07/03/2026,C109,Abena Sarpong,Northern,SME,P003,USB-C Hub,Accessories,1,189,Cynthia Aidoo,Card
+O00237,08/06/2026,C081,Adwoa Issah,Central,SME,P010,External SSD 1TB,Storage,2,756,Francis Amoah,Card
+O00238,14/02/2026,C076,Ibrahim Owusu,Greater Accra,Corporate,P005,27-inch Monitor,Displays,3,2310,Cynthia Aidoo,Mobile Money
+O00239,22/01/2026,C106,Kwame Issah,Greater Accra,Corporate,P001,Wireless Mouse,Accessories,1,89.25,Cynthia Aidoo,Card
+O00240,09/06/2026,C099,Akosua Darko,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,3,650,Francis Amoah,Bank Transfer
+O00241,05/05/2026,C083,Samuel Asare,Ashanti,SME,P010,External SSD 1TB,Storage,1,720,Cynthia Aidoo,Cash
+O00242,11/02/2026,C010,Michael Appiah,Western,Retail,P002,Mechanical Keyboard,Accessories,2,240,David Kwarteng,Card
+O00243,23/03/2026,C044,Adwoa Darko,Ashanti,Corporate,P005,27-inch Monitor,Displays,5,2200,Francis Amoah,Bank Transfer
+O00244,15/07/2026,C052,Akosua Tetteh,Central,Retail,P005,27-inch Monitor,Displays,2,2310,Akua Mensimah,Bank Transfer
+O00245,02/02/2026,C031,Grace Asare,Western,Retail,P015,Bluetooth Speaker,Audio,1,420,Benjamin Osei,Mobile Money
+O00246,10/04/2026,C007,Abena Tetteh,Northern,Corporate,P010,External SSD 1TB,Storage,5,720,Benjamin Osei,Card
+O00247,29/05/2026,C105,Kwame Issah,Ashanti,SME,P011,Flash Drive 128GB,Storage,3,110,Benjamin Osei,Cash
+O00248,09/05/2026,C066,Mariam Boadu,Central,Retail,P015,Bluetooth Speaker,Audio,5,420,Akua Mensimah,Mobile Money
+O00249,29/04/2026,C051,Kojo Boateng,Eastern,Retail,P017,Network Switch,Networking,8,760,Esther Nyarko,Bank Transfer
+O00250,15/03/2026,C007,Abena Tetteh,Northern,Corporate,P002,Mechanical Keyboard,Accessories,2,240,Cynthia Aidoo,Mobile Money
+O00251,22/04/2026,C109,Abena Sarpong,Northern,SME,P004,24-inch Monitor,Displays,1,1450,Francis Amoah,Bank Transfer
+O00252,05/04/2026,C098,Grace Boadu,Eastern,Retail,P013,Webcam,Accessories,1,304,Esther Nyarko,Card
+O00253,16/03/2026,C047,Daniel Quaye,Ashanti,Corporate,P018,Ethernet Cable 10m,Networking,1,99.75,David Kwarteng,Bank Transfer
+O00254,03/02/2026,C106,Kwame Issah,Greater Accra,Corporate,P004,24-inch Monitor,Displays,8,1450,Cynthia Aidoo,Bank Transfer
+O00255,14/07/2026,C072,Esi Quaye,Greater Accra,Retail,P012,External HDD 2TB,Storage,1,504,Esther Nyarko,Cash
+O00256,13/01/2026,C065,Samuel Boateng,Eastern,Retail,P002,Mechanical Keyboard,Accessories,1,240,David Kwarteng,Cash
+O00257,06/02/2026,C020,Adwoa Addo,Northern,SME,P017,Network Switch,Networking,1,798,Cynthia Aidoo,Card
+O00258,02/06/2026,C051,Kojo Boateng,Eastern,Retail,P010,External SSD 1TB,Storage,1,756,Esther Nyarko,Cash
+O00259,03/05/2026,C091,Kofi Boadu,Eastern,Retail,P010,External SSD 1TB,Storage,4,720,Cynthia Aidoo,Mobile Money
+O00260,24/07/2026,C054,Samuel Darko,Ashanti,SME,P010,External SSD 1TB,Storage,5,684,Esther Nyarko,Cash
+O00261,05/07/2026,C034,Mariam Agyeman,Western,Retail,P008,Performance Laptop,Computers,1,8200,Benjamin Osei,Cash
+O00262,10/01/2026,C019,Kofi Amankwah,Greater Accra,SME,P008,Performance Laptop,Computers,2,7790,Benjamin Osei,Mobile Money
+O00263,19/04/2026,C057,Abena Tetteh,Western,SME,P011,Flash Drive 128GB,Storage,1,110,David Kwarteng,Cash
+O00264,01/07/2026,C112,Kojo Mensah,Western,Retail,P002,Mechanical Keyboard,Accessories,1,240,Esther Nyarko,Bank Transfer
+O00265,16/05/2026,C085,Ibrahim Mensah,Northern,SME,P016,Wi-Fi Router,Networking,2,590,David Kwarteng,Bank Transfer
+O00266,24/06/2026,C070,Kojo Sarpong,Northern,Corporate,P012,External HDD 2TB,Storage,4,480,Esther Nyarko,Cash
+O00267,14/03/2026,C025,Grace Agyeman,Western,Corporate,P008,Performance Laptop,Computers,2,8200,Cynthia Aidoo,Bank Transfer
+O00268,27/06/2026,C091,Kofi Boadu,Eastern,Retail,P007,Office Laptop,Computers,3,5200,David Kwarteng,Bank Transfer
+O00269,16/03/2026,C072,Esi Quaye,Greater Accra,Retail,P009,Tablet,Computers,1,3255,David Kwarteng,Cash
+O00270,18/07/2026,C105,Kwame Issah,Ashanti,SME,P012,External HDD 2TB,Storage,4,480,Akua Mensimah,Bank Transfer
+O00271,31/03/2026,C092,Joseph Owusu,Central,Corporate,P003,USB-C Hub,Accessories,6,180,Francis Amoah,Cash
+O00272,01/08/2026,C028,Linda Ofori,Greater Accra,Retail,P007,Office Laptop,Computers,2,5460,Francis Amoah,Bank Transfer
+O00273,08/06/2026,C018,Kofi Quaye,Western,Retail,P004,24-inch Monitor,Displays,3,1450,Benjamin Osei,Mobile Money
+O00274,28/02/2026,C086,Kojo Mensah,Eastern,SME,P017,Network Switch,Networking,3,722,Akua Mensimah,Cash
+O00275,27/01/2026,C043,Yaw Addo,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,3,590,Akua Mensimah,Card
+O00276,04/05/2026,C053,Ibrahim Quaye,Ashanti,Retail,P016,Wi-Fi Router,Networking,3,590,Cynthia Aidoo,Bank Transfer
+O00277,22/08/2026,C083,Samuel Asare,Ashanti,SME,P002,Mechanical Keyboard,Accessories,4,252,Benjamin Osei,Mobile Money
+O00278,18/04/2026,C117,Mariam Darko,Ashanti,SME,P006,Laptop Stand,Accessories,5,160,Akua Mensimah,Cash
+O00279,18/02/2026,C101,Kofi Appiah,Western,Retail,P016,Wi-Fi Router,Networking,6,590,Akua Mensimah,Mobile Money
+O00280,28/03/2026,C039,Joseph Addo,Eastern,SME,P004,24-inch Monitor,Displays,1,1522.5,Esther Nyarko,Cash
+O00281,07/08/2026,C114,Ibrahim Tetteh,Central,Corporate,P005,27-inch Monitor,Displays,2,2200,Benjamin Osei,Mobile Money
+O00282,08/07/2026,C043,Yaw Addo,Greater Accra,Corporate,P006,Laptop Stand,Accessories,2,160,Francis Amoah,Card
+O00283,23/07/2026,C002,Kofi Boateng,Ashanti,,P011,Flash Drive 128GB,Storage,1,110,Benjamin Osei,Cash
+O00284,13/05/2026,C106,Kwame Issah,Greater Accra,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Francis Amoah,Mobile Money
+O00285,04/05/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P005,27-inch Monitor,Displays,1,2200,Akua Mensimah,Bank Transfer
+O00286,26/04/2026,C050,Daniel Issah,Western,Retail,P008,Performance Laptop,Computers,4,8200,Cynthia Aidoo,Mobile Money
+O00287,28/06/2026,C034,Mariam Agyeman,Western,Retail,P012,External HDD 2TB,Storage,1,456,David Kwarteng,Bank Transfer
+O00288,26/06/2026,C021,Yaw Appiah,Western,Retail,P013,Webcam,Accessories,2,320,Francis Amoah,Mobile Money
+O00289,06/04/2026,C082,Michael Tetteh,Northern,Corporate,P010,External SSD 1TB,Storage,3,720,Benjamin Osei,Cash
+O00290,12/07/2026,C020,Adwoa Addo,Northern,SME,P015,Bluetooth Speaker,Audio,10,420,David Kwarteng,Cash
+O00291,26/07/2026,C097,Grace Appiah,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,3,95,Benjamin Osei,Mobile Money
+O00292,17/05/2026,C068,Kwame Owusu,Northern,SME,P015,Bluetooth Speaker,Audio,3,399,Esther Nyarko,Mobile Money
+O00293,21/08/2026,C008,Ibrahim Agyeman,Ashanti,SME,P018,Ethernet Cable 10m,Networking,2,99.75,Esther Nyarko,Card
+O00294,08/08/2026,C022,Adwoa Tetteh,Northern,Corporate,P011,Flash Drive 128GB,Storage,2,104.5,Francis Amoah,Card
+O00295,25/01/2026,C092,Joseph Owusu,Central,Corporate,P016,Wi-Fi Router,Networking,5,590,Akua Mensimah,Cash
+O00296,18/04/2026,C017,Abena Tetteh,greater accra,Retail,P017,Network Switch,Networking,2,722,Esther Nyarko,Cash
+O00297,06/07/2026,C087,Priscilla Issah,Eastern,Retail,P010,External SSD 1TB,Storage,1,720,Akua Mensimah,Card
+O00298,13/01/2026,C075,Grace Boateng,Greater Accra,SME,P003,USB-C Hub,Accessories,2,171,Esther Nyarko,Mobile Money
+O00299,02/05/2026,C120,Kofi Sarpong,Greater Accra,SME,P003,USB-C Hub,Accessories,1,180,Benjamin Osei,Card
+O00300,07/04/2026,C099, Akosua Darko ,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,10,650,David Kwarteng,Cash
+O00301,25/06/2026,C049,Esi Addo,Greater Accra,Retail,P003,USB-C Hub,Accessories,-8,189,Benjamin Osei,Bank Transfer
+O00302,19/05/2026,C016,Joseph Issah,Western,Corporate,P006,Laptop Stand,Accessories,2,160,Francis Amoah,Card
+O00303,14/07/2026,C107,Ibrahim Asare,Western,SME,P001,Wireless Mouse,Accessories,1,85,David Kwarteng,Cash
+O00304,31/07/2026,C069,Daniel Agyeman,Central,SME,P013,Webcam,Accessories,1,320,Cynthia Aidoo,Card
+O00305,14/08/2026,C036,Kojo Amankwah,Greater Accra,Retail,P007,Office Laptop,Computers,3,4940,Akua Mensimah,Cash
+O00306,04/03/2026,C079,Samuel Boateng,Central,Retail,P001,Wireless Mouse,Accessories,1,80.75,Esther Nyarko,Mobile Money
+O00307,05/03/2026,C058,Daniel Addo,Eastern,SME,P002,Mechanical Keyboard,Accessories,3,240,David Kwarteng,Card
+O00308,14/07/2026,C070,Kojo Sarpong,Northern,Corporate,P007,Office Laptop,Computers,5,4940,Benjamin Osei,Bank Transfer
+O00309,29/05/2026,C030,Abena Sarpong,Central,SME,P011,Flash Drive 128GB,Storage,3,110,Benjamin Osei,Bank Transfer
+O00310,20/06/2026,C113,Adwoa Asare,Northern,SME,P005,27-inch Monitor,Displays,2,2200,Cynthia Aidoo,Bank Transfer
+O00311,02/06/2026,C008,Ibrahim Agyeman,Ashanti,SME,P018,Ethernet Cable 10m,Networking,5,95,Francis Amoah,Cash
+O00312,14/01/2026,C072,Esi Quaye,Greater Accra,Retail,P016,Wi-Fi Router,Networking,8,590,Esther Nyarko,Bank Transfer
+O00313,16/04/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Benjamin Osei,Cash
+O00314,19/03/2026,C031,Grace Asare,Western,Retail,P008,Performance Laptop,Computers,5,8200,David Kwarteng,Mobile Money
+O00315,18/04/2026,C072,Esi Quaye,Greater Accra,Retail,P014,Noise-Cancelling Headset,Audio,2,650,David Kwarteng,Card
+O00316,27/03/2026,C033,Adwoa Tetteh,Eastern,SME,P007,Office Laptop,Computers,3,5200,Cynthia Aidoo,Mobile Money
+O00317,15/01/2026,C069,Daniel Agyeman,Central,SME,P007,Office Laptop,Computers,1,5460,Esther Nyarko,Mobile Money
+O00318,19/02/2026,C112,Kojo Mensah,Western,Retail,P003,USB-C Hub,Accessories,4,189,Francis Amoah,Card
+O00319,12/08/2026,C062,Akosua Tetteh,Northern,Retail,P007,Office Laptop,Computers,5,5200,Akua Mensimah,Card
+O00320,10/07/2026,C120,Kofi Sarpong,Greater Accra,SME,P007,Office Laptop,Computers,1,5200,Benjamin Osei,Card
+O00321,23/05/2026,C051,Kojo Boateng,Eastern,Retail,P008,Performance Laptop,Computers,1,8200,David Kwarteng,Cash
+O00322,21/03/2026,C069,Daniel Agyeman,Central,SME,P012,External HDD 2TB,Storage,1,504,David Kwarteng,Cash
+O00323,15/07/2026,C013,Daniel Boadu,Western,Retail,P016,Wi-Fi Router,Networking,4,590,Cynthia Aidoo,Bank Transfer
+O00324,26/05/2026,C053,Ibrahim Quaye,Ashanti,Retail,P002,Mechanical Keyboard,Accessories,5,240,Akua Mensimah,Bank Transfer
+O00325,18/03/2026,C071,Kwame Mensah,Central,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Benjamin Osei,Cash
+O00326,09/05/2026,C073,Abena Boateng,Eastern,SME,P008,Performance Laptop,Computers,2,8200,Cynthia Aidoo,Cash
+O00327,29/04/2026,C093,Mariam Boadu,Eastern,SME,P016,Wi-Fi Router,Networking,1,590,Benjamin Osei,Card
+O00328,07/05/2026,C093,Mariam Boadu,Eastern,SME,P018,Ethernet Cable 10m,Networking,1,99.75,Francis Amoah,Mobile Money
+O00329,04/08/2026,C068,Kwame Owusu,Northern,SME,P002,Mechanical Keyboard,Accessories,5,228,Akua Mensimah,Cash
+O00330,19/01/2026,C018,Kofi Quaye,Western,Retail,P008,Performance Laptop,Computers,3,7790,Benjamin Osei,Cash
+O00331,09/06/2026,C048,Priscilla Issah,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,3,252,David Kwarteng,Cash
+O00332,18/05/2026,C003,Kwame Sarpong,Northern,Corporate,P001,Wireless Mouse,Accessories,2,80.75,Akua Mensimah,Bank Transfer
+O00333,06/01/2026,C069,Daniel Agyeman,Central,SME,P010,External SSD 1TB,Storage,2,720,Benjamin Osei,Mobile Money
+O00334,16/05/2026,C118,Efua Mensah,Western,SME,P004,24-inch Monitor,Displays,1,1450,Esther Nyarko,Bank Transfer
+O00335,11/03/2026,C105,Kwame Issah,Ashanti,SME,P012,External HDD 2TB,Storage,4,456,Cynthia Aidoo,Cash
+O00336,29/06/2026,C059,Kwame Boateng,Ashanti,Retail,P008,Performance Laptop,Computers,1,7790,Francis Amoah,Mobile Money
+O00337,09/04/2026,C012,Akosua Agyeman,Greater Accra,SME,P013,Webcam,Accessories,2,320,Akua Mensimah,Mobile Money
+O00338,23/01/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P006,Laptop Stand,Accessories,2,160,Francis Amoah,Bank Transfer
+O00339,19/08/2026,C073,Abena Boateng,Eastern,SME,P004,24-inch Monitor,Displays,2,1377.5,Benjamin Osei,Card
+O00340,12/03/2026,C116,Efua Darko,Greater Accra,SME,P016,Wi-Fi Router,Networking,1,560.5,Francis Amoah,Bank Transfer
+O00341,26/05/2026,C116,Efua Darko,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,3,95,Cynthia Aidoo,Mobile Money
+O00342,13/07/2026,C027,Kojo Boateng,Greater Accra,SME,P005,27-inch Monitor,Displays,4,2200,Akua Mensimah,Bank Transfer
+O00343,27/05/2026,C021,Yaw Appiah,Western,Retail,P008,Performance Laptop,Computers,4,8200,Francis Amoah,Bank Transfer
+O00344,23/07/2026,C050,Daniel Issah,Western,Retail,P005,27-inch Monitor,Displays,10,2090,Esther Nyarko,Bank Transfer
+O00345,23/04/2026,C007,Abena Tetteh,Northern,Corporate,P004,24-inch Monitor,Displays,1,1377.5,Cynthia Aidoo,Cash
+O00346,09/01/2026,C100,Adwoa Asare,Western,Retail,P011,Flash Drive 128GB,Storage,3,110,David Kwarteng,Card
+O00347,08/04/2026,C046,Priscilla Boadu,Ashanti,Retail,P018,Ethernet Cable 10m,Networking,2,99.75,Francis Amoah,Cash
+O00348,25/07/2026,C011,Abena Quaye,Western,Retail,P010,External SSD 1TB,Storage,1,684,Akua Mensimah,Bank Transfer
+O00349,03/07/2026,C020,Adwoa Addo,Northern,SME,P013,Webcam,Accessories,4,320,Francis Amoah,Cash
+O00350,29/01/2026,C041,Kwame Sarpong,Eastern,SME,P012,External HDD 2TB,Storage,1,480,David Kwarteng,Bank Transfer
+O00351,28/01/2026,C098,Grace Boadu,Eastern,Retail,P009,Tablet,Computers,1,3100,David Kwarteng,Cash
+O00352,13/05/2026,C072,Esi Quaye,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,2,90.25,Akua Mensimah,Bank Transfer
+O00353,03/06/2026,C071,Kwame Mensah,Central,Corporate,P003,USB-C Hub,Accessories,3,180,David Kwarteng,Mobile Money
+O00354,11/04/2026,C038,Joseph Owusu,Central,SME,P014,Noise-Cancelling Headset,Audio,4,682.5,Benjamin Osei,Card
+O00355,14/02/2026,C088,Kojo Darko,Greater Accra,Retail,P013,Webcam,Accessories,1,320,Cynthia Aidoo,Cash
+O00356,13/02/2026,C019,Kofi Amankwah,Greater Accra,SME,P003,USB-C Hub,Accessories,2,,Cynthia Aidoo,Cash
+O00357,04/04/2026,C101,Kofi Appiah,Western,Retail,P003,USB-C Hub,Accessories,1,180,Francis Amoah,Cash
+O00358,29/04/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P007,Office Laptop,Computers,1,5200,Akua Mensimah,Cash
+O00359,26/07/2026,C043,Yaw Addo,Greater Accra,Corporate,P013,Webcam,Accessories,5,320,Cynthia Aidoo,Cash
+O00360,19/03/2026,C105,Kwame Issah,Ashanti,SME,P005,27-inch Monitor,Displays,1,2200,David Kwarteng,Bank Transfer
+O00361,24/03/2026,C023,Akosua Boadu,Northern,Retail,P013,Webcam,Accessories,1,320,Esther Nyarko,Card
+O00362,14/03/2026,C042,Esi Owusu,Western,SME,P013,Webcam,Accessories,4,320,Cynthia Aidoo,Mobile Money
+O00363,02/06/2026,C120,Kofi Sarpong,Greater Accra,SME,P007,Office Laptop,Computers,10,5200,Francis Amoah,Mobile Money
+O00364,02/07/2026,C094,Adwoa Boateng,Northern,Corporate,P015,Bluetooth Speaker,Audio,1,420,Francis Amoah,Mobile Money
+O00365,23/06/2026,C105,Kwame Issah,Ashanti,SME,P014,Noise-Cancelling Headset,Audio,2,650,Benjamin Osei,Bank Transfer
+O00366,04/07/2026,C085,Ibrahim Mensah,Northern,SME,P005,27-inch Monitor,Displays,2,2200,Akua Mensimah,Cash
+O00367,31/05/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P016,Wi-Fi Router,Networking,2,619.5,Francis Amoah,Cash
+O00368,23/07/2026,C070,Kojo Sarpong,Northern,Corporate,P002,Mechanical Keyboard,Accessories,8,252,Esther Nyarko,Mobile Money
+O00369,19/06/2026,C014,Grace Darko,Greater Accra,SME,P008,Performance Laptop,Computers,3,8200,Francis Amoah,Mobile Money
+O00370,13/07/2026,C073,Abena Boateng,Eastern,SME,P013,Webcam,Accessories,1,320,Akua Mensimah,Mobile Money
+O00371,27/02/2026,C013,Daniel Boadu,Western,Retail,P009,Tablet,Computers,2,3255,Esther Nyarko,Card
+O00372,12/04/2026,C058,Daniel Addo,Eastern,SME,P012,External HDD 2TB,Storage,2,504,Francis Amoah,Card
+O00373,05/05/2026,C045,Kwame Amankwah,Northern,SME,P001,Wireless Mouse,Accessories,1,85,Akua Mensimah,Mobile Money
+O00374,01/04/2026,C107,Ibrahim Asare,Western,SME,P005,27-inch Monitor,Displays,1,2200,Benjamin Osei,Cash
+O00375,26/01/2026,C045,Kwame Amankwah,Northern,SME,P016,Wi-Fi Router,Networking,2,590,Cynthia Aidoo,Mobile Money
+O00376,28/07/2026,C039,Joseph Addo,Eastern,SME,P002,Mechanical Keyboard,Accessories,3,228,Cynthia Aidoo,Mobile Money
+O00377,10/07/2026,C087, Priscilla Issah ,Eastern,Retail,P006,Laptop Stand,Accessories,1,160,Esther Nyarko,Card
+O00378,21/04/2026,C043,Yaw Addo,Greater Accra,Corporate,P018,Ethernet Cable 10m,Networking,8,95,David Kwarteng,Card
+O00379,13/04/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P014,Noise-Cancelling Headset,Audio,1,682.5,Benjamin Osei,Cash
+O00380,11/04/2026,C076,Ibrahim Owusu,Greater Accra,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Benjamin Osei,Bank Transfer
+O00381,29/05/2026,C097,Grace Appiah,Greater Accra,Retail,P003,USB-C Hub,Accessories,1,189,Benjamin Osei,Bank Transfer
+O00382,29/04/2026,C042,Esi Owusu,Western,SME,P007,Office Laptop,Computers,1,5200,Esther Nyarko,Bank Transfer
+O00383,07/06/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P013,Webcam,Accessories,2,304,Cynthia Aidoo,Bank Transfer
+O00384,09/06/2026,C109,Abena Sarpong,Northern,SME,P015,Bluetooth Speaker,Audio,1,420,Esther Nyarko,Mobile Money
+O00385,23/03/2026,C087,Priscilla Issah,Eastern,Retail,P005,27-inch Monitor,Displays,1,2200,Akua Mensimah,Card
+O00386,12/05/2026,C048,Priscilla Issah,Greater Accra,Corporate,P005,27-inch Monitor,Displays,2,2310,Benjamin Osei,Cash
+O00387,06/05/2026,C055,Priscilla Amankwah,Eastern,SME,P006,Laptop Stand,Accessories,3,160,Esther Nyarko,Card
+O00388,06/02/2026,C063,Kofi Owusu,Greater Accra,SME,P010,External SSD 1TB,Storage,1,720,Esther Nyarko,Mobile Money
+O00389,04/01/2026,C111,Akosua Sarpong,Central,SME,P012,External HDD 2TB,Storage,2,480,David Kwarteng,Cash
+O00390,18/04/2026,C053,Ibrahim Quaye,Ashanti,Retail,P016,Wi-Fi Router,Networking,3,590,David Kwarteng,Card
+O00391,24/07/2026,C011,Abena Quaye,Western,Retail,P001,Wireless Mouse,Accessories,4,85,Akua Mensimah,Bank Transfer
+O00392,16/03/2026,C029,Mariam Issah,Northern,SME,P018,Ethernet Cable 10m,Networking,1,95,Esther Nyarko,Cash
+O00393,30/01/2026,C071,Kwame Mensah,Central,Corporate,P017,Network Switch,Networking,2,760,Esther Nyarko,Bank Transfer
+O00394,15/07/2026,C070,Kojo Sarpong,Northern,Corporate,P002,Mechanical Keyboard,Accessories,3,252,Benjamin Osei,Cash
+O00395,19/03/2026,C014,Grace Darko,Greater Accra,SME,P008,Performance Laptop,Computers,5,7790,David Kwarteng,Bank Transfer
+O00396,24/04/2026,C045,Kwame Amankwah,Northern,SME,P003,USB-C Hub,Accessories,5,171,Benjamin Osei,Card
+O00397,10/08/2026,C104,Ama Sarpong,Eastern,SME,P012,External HDD 2TB,Storage,3,480,Benjamin Osei,Card
+O00398,29/07/2026,C101,Kofi Appiah,Western,Retail,P007,Office Laptop,Computers,1,4940,Esther Nyarko,Bank Transfer
+O00399,03/06/2026,C069,Daniel Agyeman,Central,SME,P009,Tablet,Computers,2,3100,Francis Amoah,Bank Transfer
+O00400,09/08/2026,C038,Joseph Owusu,Central,SME,P009,Tablet,Computers,2,2945,Benjamin Osei,Cash
+O00401,13/03/2026,C118,Efua Mensah,western,SME,P002,Mechanical Keyboard,Accessories,5,240,Francis Amoah,Card
+O00402,03/07/2026,C032,Kofi Tetteh,Eastern,Corporate,P005,27-inch Monitor,Displays,1,2200,Francis Amoah,Cash
+O00403,29/05/2026,C063,Kofi Owusu,Greater Accra,SME,P005,27-inch Monitor,Displays,3,2200,David Kwarteng,Cash
+O00404,15/04/2026,C010,Michael Appiah,Western,Retail,P003,USB-C Hub,Accessories,2,180,Francis Amoah,Bank Transfer
+O00405,26/03/2026,C059,Kwame Boateng,Ashanti,Retail,P016,Wi-Fi Router,Networking,2,560.5,Francis Amoah,Cash
+O00406,07/08/2026,C082,Michael Tetteh,Northern,Corporate,P012,External HDD 2TB,Storage,1,504,David Kwarteng,Card
+O00407,08/05/2026,C055,Priscilla Amankwah,Eastern,SME,P007,Office Laptop,Computers,1,5200,Cynthia Aidoo,Card
+O00408,22/07/2026,C073,Abena Boateng,Eastern,SME,P016,Wi-Fi Router,Networking,2,560.5,Akua Mensimah,Mobile Money
+O00409,06/01/2026,C081,Adwoa Issah,Central,SME,P015,Bluetooth Speaker,Audio,1,420,David Kwarteng,Cash
+O00410,22/02/2026,C001,Kwame Mensah,Northern,SME,P014,Noise-Cancelling Headset,Audio,10,650,Francis Amoah,Bank Transfer
+O00411,25/01/2026,C021,Yaw Appiah,Western,Retail,P009,Tablet,Computers,3,3100,Akua Mensimah,Bank Transfer
+O00412,15/01/2026,C086,Kojo Mensah,Eastern,SME,P006,Laptop Stand,Accessories,2,160,Francis Amoah,Card
+O00413,01/07/2026,C055,Priscilla Amankwah,Eastern,SME,P003,USB-C Hub,Accessories,1,180,David Kwarteng,Mobile Money
+O00414,14/05/2026,C017,Abena Tetteh,Greater Accra,Retail,P008,Performance Laptop,Computers,3,7790,Akua Mensimah,Bank Transfer
+O00415,10/08/2026,C105,Kwame Issah,Ashanti,SME,P004,24-inch Monitor,Displays,2,1450,David Kwarteng,Mobile Money
+O00416,24/01/2026,C030,Abena Sarpong,Central,SME,P013,Webcam,Accessories,3,304,Akua Mensimah,Bank Transfer
+O00417,06/02/2026,C048,Priscilla Issah,Greater Accra,Corporate,P010,External SSD 1TB,Storage,2,720,Francis Amoah,Card
+O00418,26/05/2026,C009,Mariam Ofori,Greater Accra,Retail,P017,Network Switch,Networking,1,760,David Kwarteng,Bank Transfer
+O00419,11/06/2026,C093,Mariam Boadu,Eastern,SME,P007,Office Laptop,Computers,3,5200,Esther Nyarko,Cash
+O00420,24/01/2026,C111,Akosua Sarpong,Central,SME,P007,Office Laptop,Computers,5,5200,Akua Mensimah,Cash
+O00421,23/03/2026,C045,Kwame Amankwah,Northern,SME,P014,Noise-Cancelling Headset,Audio,4,650,Cynthia Aidoo,Mobile Money
+O00422,04/06/2026,C032,Kofi Tetteh,Eastern,Corporate,P018,Ethernet Cable 10m,Networking,3,99.75,Cynthia Aidoo,Mobile Money
+O00423,23/02/2026,C109,Abena Sarpong,Northern,SME,P010,External SSD 1TB,Storage,2,756,Benjamin Osei,Cash
+O00424,21/07/2026,C038,Joseph Owusu,Central,SME,P002,Mechanical Keyboard,Accessories,5,240,David Kwarteng,Cash
+O00425,09/05/2026,C015,Akosua Darko,Western,Corporate,P008,Performance Laptop,Computers,3,7790,Esther Nyarko,Mobile Money
+O00426,04/02/2026,C047,Daniel Quaye,Ashanti,Corporate,P011,Flash Drive 128GB,Storage,2,115.5,David Kwarteng,Bank Transfer
+O00427,16/07/2026,C070,Kojo Sarpong,Northern,Corporate,P006,Laptop Stand,Accessories,-2,152,Akua Mensimah,Mobile Money
+O00428,26/02/2026,C002,Kofi Boateng,Ashanti,Corporate,P009,Tablet,Computers,1,2945,David Kwarteng,Bank Transfer
+O00429,17/07/2026,C081,Adwoa Issah,Central,SME,P017,Network Switch,Networking,2,760,Akua Mensimah,Card
+O00430,22/03/2026,C036,Kojo Amankwah,Greater Accra,Retail,P003,USB-C Hub,Accessories,1,180,Benjamin Osei,Bank Transfer
+O00431,22/03/2026,C051,Kojo Boateng,Eastern,Retail,P003,USB-C Hub,Accessories,3,,Akua Mensimah,Card
+O00432,31/01/2026,C012,Akosua Agyeman,Greater Accra,SME,P014,Noise-Cancelling Headset,Audio,2,682.5,Akua Mensimah,Bank Transfer
+O00433,01/02/2026,C086,Kojo Mensah,Eastern,SME,P006,Laptop Stand,Accessories,1,160,Francis Amoah,Mobile Money
+O00434,31/03/2026,C021,Yaw Appiah,Western,Retail,P016,Wi-Fi Router,Networking,2,590,Benjamin Osei,Bank Transfer
+O00435,08/07/2026,C017,Abena Tetteh,Greater Accra,Retail,P009,Tablet,Computers,5,2945,Cynthia Aidoo,Cash
+O00436,18/01/2026,C035,Efua Darko,Central,Retail,P017,Network Switch,Networking,1,798,Francis Amoah,Mobile Money
+O00437,12/05/2026,C064,Akosua Darko,Ashanti,SME,P015,Bluetooth Speaker,Audio,2,420,Esther Nyarko,Card
+O00438,08/03/2026,C048,Priscilla Issah,Greater Accra,Corporate,P006,Laptop Stand,Accessories,4,168,Francis Amoah,Mobile Money
+O00439,02/01/2026,C030,Abena Sarpong,Central,SME,P017,Network Switch,Networking,1,722,Benjamin Osei,Mobile Money
+O00440,10/04/2026,C061,Kofi Boadu,Ashanti,Retail,P012,External HDD 2TB,Storage,6,480,Akua Mensimah,Cash
+O00441,06/03/2026,C029,Mariam Issah,Northern,SME,P011,Flash Drive 128GB,Storage,2,110,Cynthia Aidoo,Mobile Money
+O00442,01/02/2026,C074,Efua Agyeman,Ashanti,SME,P012,External HDD 2TB,Storage,2,456,Benjamin Osei,Card
+O00443,13/01/2026,C103,Nana Boadu,Northern,Corporate,P017,Network Switch,Networking,8,722,David Kwarteng,Bank Transfer
+O00444,26/03/2026,C100,Adwoa Asare,Western,Retail,P010,External SSD 1TB,Storage,1,720,Akua Mensimah,Bank Transfer
+O00445,26/05/2026,C026,Ibrahim Boateng,Northern,SME,P010,External SSD 1TB,Storage,4,756,Benjamin Osei,Cash
+O00446,18/07/2026,C048,Priscilla Issah,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,4,619.5,Benjamin Osei,Card
+O00447,08/01/2026,C001,Kwame Mensah,Northern,SME,P014,Noise-Cancelling Headset,Audio,1,650,Francis Amoah,Mobile Money
+O00448,15/07/2026,C043,Yaw Addo,Greater Accra,Corporate,P001,Wireless Mouse,Accessories,3,85,Akua Mensimah,Card
+O00449,19/04/2026,C068,Kwame Owusu,Northern,SME,P008,Performance Laptop,Computers,2,7790,Benjamin Osei,Bank Transfer
+O00450,25/08/2026,C012,Akosua Agyeman,Greater Accra,SME,P002,Mechanical Keyboard,Accessories,1,252,David Kwarteng,Bank Transfer
+O00451,30/05/2026,C059,Kwame Boateng,Ashanti,Retail,P003,USB-C Hub,Accessories,1,180,Francis Amoah,Cash
+O00452,23/04/2026,C010,Michael Appiah,Western,Retail,P002,Mechanical Keyboard,Accessories,3,240,Benjamin Osei,Bank Transfer
+O00453,26/07/2026,C034,Mariam Agyeman,Western,Retail,P011,Flash Drive 128GB,Storage,2,110,Cynthia Aidoo,Cash
+O00454,21/01/2026,C035,Efua Darko,Central,Retail,P008,Performance Laptop,Computers,6,8200,Esther Nyarko,Mobile Money
+O00455,13/02/2026,C020,Adwoa Addo,Northern,SME,P004,24-inch Monitor,Displays,2,1450,David Kwarteng,Mobile Money
+O00456,18/07/2026,C069,Daniel Agyeman,Central,SME,P012,External HDD 2TB,Storage,1,480,David Kwarteng,Bank Transfer
+O00457,25/01/2026,C110,Priscilla Addo,Western,Retail,P004,24-inch Monitor,Displays,1,1450,Francis Amoah,Mobile Money
+O00458,08/02/2026,C028,Linda Ofori,Greater Accra,Retail,P011,Flash Drive 128GB,Storage,1,110,Cynthia Aidoo,Cash
+O00459,24/06/2026,C066,Mariam Boadu,Central,Retail,P002,Mechanical Keyboard,Accessories,1,240,Akua Mensimah,Cash
+O00460,24/05/2026,C110,Priscilla Addo,Western,Retail,P015,Bluetooth Speaker,Audio,3,420,Akua Mensimah,Cash
+O00461,02/02/2026,C014,Grace Darko,Greater Accra,SME,P005,27-inch Monitor,Displays,1,2200,Benjamin Osei,Card
+O00462,07/04/2026,C106,Kwame Issah,Greater Accra,Corporate,P013,Webcam,Accessories,3,304,Esther Nyarko,Bank Transfer
+O00463,07/01/2026,C118, Efua Mensah ,Western,SME,P003,USB-C Hub,Accessories,10,180,Francis Amoah,Cash
+O00464,25/01/2026,C104,Ama Sarpong,Eastern,SME,P005,27-inch Monitor,Displays,5,2200,Akua Mensimah,Mobile Money
+O00465,14/02/2026,C060,Esi Mensah,Eastern,Corporate,P002,Mechanical Keyboard,Accessories,6,240,Francis Amoah,Cash
+O00466,09/04/2026,C064,Akosua Darko,Ashanti,SME,P001,Wireless Mouse,Accessories,3,85,Cynthia Aidoo,Card
+O00467,13/03/2026,C117,Mariam Darko,Ashanti,SME,P006,Laptop Stand,Accessories,1,160,Akua Mensimah,Card
+O00468,09/05/2026,C083,Samuel Asare,Ashanti,SME,P010,External SSD 1TB,Storage,2,756,David Kwarteng,Mobile Money
+O00469,10/04/2026,C012,Akosua Agyeman,greater accra,SME,P009,Tablet,Computers,1,3100,Francis Amoah,Card
+O00470,24/07/2026,C081,Adwoa Issah,Central,SME,P018,Ethernet Cable 10m,Networking,1,95,Francis Amoah,Bank Transfer
+O00471,21/07/2026,C062,Akosua Tetteh,Northern,Retail,P018,Ethernet Cable 10m,Networking,2,99.75,Esther Nyarko,Bank Transfer
+O00472,17/02/2026,C050,Daniel Issah,Western,Retail,P009,Tablet,Computers,1,3255,Benjamin Osei,Mobile Money
+O00473,16/01/2026,C115,Ama Owusu,Greater Accra,Corporate,P009,Tablet,Computers,4,3100,Esther Nyarko,Bank Transfer
+O00474,11/02/2026,C099,Akosua Darko,Ashanti,Corporate,P008,Performance Laptop,Computers,1,8200,Cynthia Aidoo,Mobile Money
+O00475,29/05/2026,C098,Grace Boadu,Eastern,Retail,P008,Performance Laptop,Computers,5,8200,Cynthia Aidoo,Card
+O00476,02/06/2026,C023,Akosua Boadu,Northern,Retail,P008,Performance Laptop,Computers,1,8200,Esther Nyarko,Mobile Money
+O00477,27/05/2026,C091,Kofi Boadu,Eastern,Retail,P012,External HDD 2TB,Storage,2,504,Benjamin Osei,Cash
+O00478,15/02/2026,C070,Kojo Sarpong,Northern,Corporate,P010,External SSD 1TB,Storage,2,684,Akua Mensimah,Card
+O00479,07/01/2026,C078,Kofi Asare,Central,SME,P008,Performance Laptop,Computers,2,7790,Cynthia Aidoo,Card
+O00480,30/03/2026,C104,Ama Sarpong,Eastern,SME,P005,27-inch Monitor,Displays,3,2200,Akua Mensimah,Mobile Money
+O00481,19/07/2026,C019,Kofi Amankwah,Greater Accra,SME,P005,27-inch Monitor,Displays,1,2310,Cynthia Aidoo,Mobile Money
+O00482,01/06/2026,C048, Priscilla Issah ,Greater Accra,Corporate,P013,Webcam,Accessories,1,320,Cynthia Aidoo,Card
+O00483,23/07/2026,C021,Yaw Appiah,Western,Retail,P014,Noise-Cancelling Headset,Audio,3,650,Francis Amoah,Bank Transfer
+O00484,28/06/2026,C023,Akosua Boadu,Northern,Retail,P018,Ethernet Cable 10m,Networking,5,99.75,Cynthia Aidoo,Card
+O00485,08/04/2026,C086,Kojo Mensah,Eastern,SME,P006,Laptop Stand,Accessories,1,160,Benjamin Osei,Card
+O00486,30/06/2026,C094,Adwoa Boateng,Northern,Corporate,P001,Wireless Mouse,Accessories,6,,Esther Nyarko,Mobile Money
+O00487,25/08/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P011,Flash Drive 128GB,Storage,4,115.5,Benjamin Osei,Mobile Money
+O00488,07/02/2026,C120,Kofi Sarpong,Greater Accra,SME,P016,Wi-Fi Router,Networking,1,560.5,Benjamin Osei,Bank Transfer
+O00489,13/06/2026,C041,Kwame Sarpong,Eastern,SME,P006,Laptop Stand,Accessories,5,152,Francis Amoah,Bank Transfer
+O00490,10/03/2026,C058,Daniel Addo,Eastern,SME,P001,Wireless Mouse,Accessories,1,80.75,Cynthia Aidoo,Bank Transfer
+O00491,05/07/2026,C101,Kofi Appiah,Western,Retail,P004,24-inch Monitor,Displays,1,1450,David Kwarteng,Cash
+O00492,08/05/2026,C022,Adwoa Tetteh,Northern,Corporate,P014,Noise-Cancelling Headset,Audio,5,650,Esther Nyarko,Cash
+O00493,22/07/2026,C013,Daniel Boadu,Western,Retail,P016,Wi-Fi Router,Networking,5,590,Benjamin Osei,Cash
+O00494,18/03/2026,C010,Michael Appiah,Western,Retail,P002,Mechanical Keyboard,Accessories,1,240,Akua Mensimah,Mobile Money
+O00495,17/08/2026,C044,Adwoa Darko,Ashanti,Corporate,P006,Laptop Stand,Accessories,2,152,Esther Nyarko,Mobile Money
+O00496,01/07/2026,C044,Adwoa Darko,Ashanti,Corporate,P016,Wi-Fi Router,Networking,1,590,Esther Nyarko,Cash
+O00497,27/01/2026,C021,Yaw Appiah,Western,Retail,P002,Mechanical Keyboard,Accessories,1,240,David Kwarteng,Bank Transfer
+O00498,19/03/2026,C085,Ibrahim Mensah,Northern,SME,P010,External SSD 1TB,Storage,1,684,David Kwarteng,Cash
+O00499,04/04/2026,C020,Adwoa Addo,Northern,SME,P002,Mechanical Keyboard,Accessories,1,228,Cynthia Aidoo,Cash
+O00500,08/01/2026,C026,Ibrahim Boateng,Northern,SME,P004,24-inch Monitor,Displays,1,1450,Akua Mensimah,Cash
+O00501,21/03/2026,C109,Abena Sarpong,Northern,SME,P004,24-inch Monitor,Displays,4,1450,David Kwarteng,Bank Transfer
+O00502,11/04/2026,C012,Akosua Agyeman,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,1,95,Cynthia Aidoo,Card
+O00503,10/03/2026,C058,Daniel Addo,Eastern,SME,P002,Mechanical Keyboard,Accessories,2,240,Benjamin Osei,Bank Transfer
+O00504,09/02/2026,C073,Abena Boateng,Eastern,SME,P002,Mechanical Keyboard,Accessories,4,228,Akua Mensimah,Bank Transfer
+O00505,17/04/2026,C104,Ama Sarpong,Eastern,SME,P018,Ethernet Cable 10m,Networking,8,99.75,Benjamin Osei,Mobile Money
+O00506,30/07/2026,C108,Joseph Boateng,Northern,SME,P013,Webcam,Accessories,2,336,Francis Amoah,Cash
+O00507,03/05/2026,C074,Efua Agyeman,Ashanti,SME,P008,Performance Laptop,Computers,1,8200,Francis Amoah,Mobile Money
+O00508,25/07/2026,C065,Samuel Boateng,Eastern,Retail,P017,Network Switch,Networking,2,798,Benjamin Osei,Mobile Money
+O00509,15/02/2026,C097,Grace Appiah,Greater Accra,,P015,Bluetooth Speaker,Audio,6,420,Benjamin Osei,Card
+O00510,20/04/2026,C017,Abena Tetteh,Greater Accra,Retail,P002,Mechanical Keyboard,Accessories,1,240,Benjamin Osei,Card
+O00511,24/03/2026,C107,Ibrahim Asare,Western,SME,P009,Tablet,Computers,6,2945,Akua Mensimah,Cash
+O00512,23/05/2026,C072,Esi Quaye,Greater Accra,Retail,P013,Webcam,Accessories,1,320,Esther Nyarko,Cash
+O00513,22/07/2026,C118,Efua Mensah,Western,SME,P001,Wireless Mouse,Accessories,3,89.25,Esther Nyarko,Cash
+O00514,09/02/2026,C015,Akosua Darko,Western,Corporate,P014,Noise-Cancelling Headset,Audio,1,682.5,Esther Nyarko,Mobile Money
+O00515,26/05/2026,C119,Kojo Issah,Western,Retail,P004,24-inch Monitor,Displays,4,1450,Esther Nyarko,Bank Transfer
+O00516,10/03/2026,C113,Adwoa Asare,Northern,SME,P014,Noise-Cancelling Headset,Audio,2,650,Esther Nyarko,Cash
+O00517,13/03/2026,C005,Ama Owusu,Ashanti,Retail,P006,Laptop Stand,Accessories,2,168,Esther Nyarko,Cash
+O00518,17/08/2026,C005,Ama Owusu,Ashanti,Retail,P013,Webcam,Accessories,5,320,Akua Mensimah,Cash
+O00519,19/08/2026,C118,Efua Mensah,Western,SME,P009,Tablet,Computers,2,3100,Cynthia Aidoo,Bank Transfer
+O00520,09/08/2026,C036,Kojo Amankwah,Greater Accra,Retail,P016,Wi-Fi Router,Networking,3,560.5,Benjamin Osei,Card
+O00521,19/07/2026,C039,Joseph Addo,Eastern,SME,P015,Bluetooth Speaker,Audio,4,420,Francis Amoah,Cash
+O00522,19/02/2026,C078,Kofi Asare,Central,SME,P003,USB-C Hub,Accessories,2,180,Francis Amoah,Cash
+O00523,12/08/2026,C098,Grace Boadu,Eastern,Retail,P017,Network Switch,Networking,2,722,Esther Nyarko,Card
+O00524,02/07/2026,C009,Mariam Ofori,Greater Accra,Retail,P010,External SSD 1TB,Storage,2,720,Esther Nyarko,Mobile Money
+O00525,14/08/2026,C023,Akosua Boadu,Northern,Retail,P007,Office Laptop,Computers,4,4940,Benjamin Osei,Mobile Money
+O00526,25/08/2026,C059,Kwame Boateng,Ashanti,Retail,P002,Mechanical Keyboard,Accessories,2,240,Cynthia Aidoo,Bank Transfer
+O00527,11/05/2026,C106,Kwame Issah,Greater Accra,Corporate,P015,Bluetooth Speaker,Audio,2,399,Francis Amoah,Mobile Money
+O00528,07/05/2026,C031,Grace Asare,Western,Retail,P012,External HDD 2TB,Storage,3,480,David Kwarteng,Bank Transfer
+O00529,04/08/2026,C045,Kwame Amankwah,Northern,SME,P006,Laptop Stand,Accessories,5,152,Cynthia Aidoo,Mobile Money
+O00530,12/02/2026,C050,Daniel Issah,Western,Retail,P002,Mechanical Keyboard,Accessories,5,240,Benjamin Osei,Card
+O00531,11/03/2026,C087,Priscilla Issah,Eastern,Retail,P007,Office Laptop,Computers,3,5460,Akua Mensimah,Mobile Money
+O00532,16/06/2026,C061,Kofi Boadu,Ashanti,Retail,P005,27-inch Monitor,Displays,1,2090,Benjamin Osei,Bank Transfer
+O00533,03/07/2026,C078,Kofi Asare,Central,SME,P010,External SSD 1TB,Storage,8,720,David Kwarteng,Cash
+O00534,29/04/2026,C110,Priscilla Addo,Western,Retail,P012,External HDD 2TB,Storage,-1,480,Cynthia Aidoo,Cash
+O00535,03/01/2026,C075,Grace Boateng,Greater Accra,SME,P004,24-inch Monitor,Displays,2,1450,Esther Nyarko,Bank Transfer
+O00536,05/05/2026,C039,Joseph Addo,Eastern,SME,P004,24-inch Monitor,Displays,1,1450,Francis Amoah,Bank Transfer
+O00537,09/03/2026,C111,Akosua Sarpong,Central,SME,P009,Tablet,Computers,3,3100,Benjamin Osei,Card
+O00538,20/08/2026,C067,Samuel Quaye,Central,Retail,P008,Performance Laptop,Computers,1,8610,David Kwarteng,Bank Transfer
+O00539,05/07/2026,C088,Kojo Darko,Greater Accra,Retail,P005,27-inch Monitor,Displays,1,2200,Cynthia Aidoo,Bank Transfer
+O00540,15/04/2026,C117,Mariam Darko,Ashanti,SME,P014,Noise-Cancelling Headset,Audio,2,617.5,Esther Nyarko,Card
+O00541,26/06/2026,C044,Adwoa Darko,Ashanti,Corporate,P008,Performance Laptop,Computers,2,8200,Francis Amoah,Bank Transfer
+O00542,06/08/2026,C065,Samuel Boateng,Eastern,Retail,P010,External SSD 1TB,Storage,1,756,Benjamin Osei,Bank Transfer
+O00543,03/02/2026,C013,Daniel Boadu,Western,Retail,P016,Wi-Fi Router,Networking,3,619.5,Benjamin Osei,Bank Transfer
+O00544,27/02/2026,C084,Abena Mensah,Eastern,Corporate,P003,USB-C Hub,Accessories,2,180,David Kwarteng,Bank Transfer
+O00545,31/05/2026,C048, Priscilla Issah ,Greater Accra,Corporate,P009,Tablet,Computers,1,2945,David Kwarteng,Mobile Money
+O00546,02/05/2026,C111, Akosua Sarpong ,Central,SME,P003,USB-C Hub,Accessories,5,189,Akua Mensimah,Cash
+O00547,17/04/2026,C068,Kwame Owusu,Northern,SME,P010,External SSD 1TB,Storage,1,720,Benjamin Osei,Card
+O00548,27/05/2026,C044,Adwoa Darko,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,5,650,Benjamin Osei,Bank Transfer
+O00549,20/07/2026,C111,Akosua Sarpong,Central,SME,P006,Laptop Stand,Accessories,1,160,Francis Amoah,Card
+O00550,03/01/2026,C041,Kwame Sarpong,Eastern,SME,P002,Mechanical Keyboard,Accessories,2,240,Benjamin Osei,Card
+O00551,04/02/2026,C063,Kofi Owusu,Greater Accra,SME,P003,USB-C Hub,Accessories,3,180,David Kwarteng,Cash
+O00552,03/01/2026,C062,Akosua Tetteh,Northern,Retail,P013,Webcam,Accessories,1,320,Francis Amoah,Bank Transfer
+O00553,14/07/2026,C002,Kofi Boateng,Ashanti,Corporate,P011,Flash Drive 128GB,Storage,4,110,Akua Mensimah,Mobile Money
+O00554,28/02/2026,C081,Adwoa Issah,Central,SME,P008,Performance Laptop,Computers,3,8200,Cynthia Aidoo,Card
+O00555,10/05/2026,C014,Grace Darko,Greater Accra,SME,P013,Webcam,Accessories,2,,Akua Mensimah,Mobile Money
+O00556,28/04/2026,C039,Joseph Addo,Eastern,SME,P010,External SSD 1TB,Storage,3,756,Esther Nyarko,Bank Transfer
+O00557,30/03/2026,C056,Abena Issah,Eastern,Corporate,P005,27-inch Monitor,Displays,10,2200,Cynthia Aidoo,Card
+O00558,06/01/2026,C022,Adwoa Tetteh,Northern,Corporate,P013,Webcam,Accessories,1,320,Benjamin Osei,Mobile Money
+O00559,14/02/2026,C076,Ibrahim Owusu,Greater Accra,Corporate,P017,Network Switch,Networking,1,722,David Kwarteng,Bank Transfer
+O00560,10/06/2026,C099,Akosua Darko,Ashanti,Corporate,P018,Ethernet Cable 10m,Networking,1,90.25,Francis Amoah,Mobile Money
+O00561,14/01/2026,C084,Abena Mensah,Eastern,Corporate,P001,Wireless Mouse,Accessories,3,85,David Kwarteng,Cash
+O00562,07/03/2026,C016,Joseph Issah,Western,Corporate,P018,Ethernet Cable 10m,Networking,2,95,Benjamin Osei,Mobile Money
+O00563,20/06/2026,C039,Joseph Addo,Eastern,SME,P014,Noise-Cancelling Headset,Audio,1,682.5,Cynthia Aidoo,Card
+O00564,12/05/2026,C054,Samuel Darko,Ashanti,SME,P004,24-inch Monitor,Displays,3,1377.5,Cynthia Aidoo,Mobile Money
+O00565,09/05/2026,C101,Kofi Appiah,Western,Retail,P004,24-inch Monitor,Displays,1,1450,Cynthia Aidoo,Card
+O00566,18/03/2026,C046,Priscilla Boadu,Ashanti,Retail,P014,Noise-Cancelling Headset,Audio,1,682.5,David Kwarteng,Card
+O00567,27/03/2026,C089,Akosua Boadu,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,1,560.5,Francis Amoah,Mobile Money
+O00568,03/08/2026,C117,Mariam Darko,Ashanti,SME,P004,24-inch Monitor,Displays,2,1450,Benjamin Osei,Mobile Money
+O00569,21/01/2026,C100,Adwoa Asare,Western,Retail,P017,Network Switch,Networking,3,722,Cynthia Aidoo,Card
+O00570,10/03/2026,C059,Kwame Boateng,Ashanti,Retail,P010,External SSD 1TB,Storage,2,684,Benjamin Osei,Mobile Money
+O00571,04/04/2026,C110,Priscilla Addo,Western,Retail,P010,External SSD 1TB,Storage,4,720,David Kwarteng,Mobile Money
+O00572,04/01/2026,C013,Daniel Boadu,Western,Retail,P002,Mechanical Keyboard,Accessories,5,240,Cynthia Aidoo,Bank Transfer
+O00573,10/06/2026,C115,Ama Owusu,Greater Accra,Corporate,P015,Bluetooth Speaker,Audio,1,399,Cynthia Aidoo,Bank Transfer
+O00574,14/04/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P004,24-inch Monitor,Displays,2,1450,Cynthia Aidoo,Cash
+O00575,25/07/2026,C089,Akosua Boadu,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,2,590,Akua Mensimah,Card
+O00576,06/08/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,1,240,Esther Nyarko,Cash
+O00577,17/02/2026,C103,Nana Boadu,Northern,Corporate,P015,Bluetooth Speaker,Audio,3,420,Esther Nyarko,Mobile Money
+O00578,05/05/2026,C111,Akosua Sarpong,Central,SME,P005,27-inch Monitor,Displays,6,2090,David Kwarteng,Cash
+O00579,09/03/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P003,USB-C Hub,Accessories,3,171,Francis Amoah,Card
+O00580,14/05/2026,C086,Kojo Mensah,Eastern,SME,P011,Flash Drive 128GB,Storage,2,115.5,Akua Mensimah,Cash
+O00581,05/05/2026,C085,Ibrahim Mensah,Northern,SME,P008,Performance Laptop,Computers,2,8200,Benjamin Osei,Mobile Money
+O00582,11/05/2026,C002,Kofi Boateng,Ashanti,Corporate,P006,Laptop Stand,Accessories,5,160,Benjamin Osei,Mobile Money
+O00583,25/03/2026,C097,Grace Appiah,Greater Accra,Retail,P016,Wi-Fi Router,Networking,1,590,Akua Mensimah,Card
+O00584,15/04/2026,C071,Kwame Mensah,Central,Corporate,P013,Webcam,Accessories,4,304,David Kwarteng,Cash
+O00585,24/01/2026,C103,Nana Boadu,Northern,Corporate,P015,Bluetooth Speaker,Audio,5,420,Cynthia Aidoo,Mobile Money
+O00586,28/01/2026,C064,Akosua Darko,Ashanti,SME,P001,Wireless Mouse,Accessories,2,80.75,Esther Nyarko,Mobile Money
+O00587,23/07/2026,C106,Kwame Issah,Greater Accra,Corporate,P003,USB-C Hub,Accessories,3,189,Francis Amoah,Bank Transfer
+O00588,25/05/2026,C114,Ibrahim Tetteh,Central,Corporate,P017,Network Switch,Networking,1,760,Cynthia Aidoo,Bank Transfer
+O00589,30/07/2026,C106,Kwame Issah,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,1,240,Cynthia Aidoo,Cash
+O00590,04/07/2026,C092,Joseph Owusu,Central,Corporate,P012,External HDD 2TB,Storage,2,456,Francis Amoah,Card
+O00591,02/04/2026,C001,Kwame Mensah,Northern,SME,P011,Flash Drive 128GB,Storage,4,110,Esther Nyarko,Bank Transfer
+O00592,13/01/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P004,24-inch Monitor,Displays,5,1450,Benjamin Osei,Cash
+O00593,07/06/2026,C014,Grace Darko,Greater Accra,SME,P009,Tablet,Computers,1,2945,David Kwarteng,Card
+O00594,04/07/2026,C059,Kwame Boateng,Ashanti,Retail,P007,Office Laptop,Computers,1,5200,Akua Mensimah,Mobile Money
+O00595,29/04/2026,C099,Akosua Darko,Ashanti,Corporate,P015,Bluetooth Speaker,Audio,3,441,Benjamin Osei,Cash
+O00596,09/07/2026,C001,Kwame Mensah,Northern,SME,P017,Network Switch,Networking,1,760,Esther Nyarko,Cash
+O00597,20/07/2026,C119,Kojo Issah,Western,Retail,P017,Network Switch,Networking,6,760,Francis Amoah,Card
+O00598,28/01/2026,C094,Adwoa Boateng,Northern,Corporate,P005,27-inch Monitor,Displays,2,2310,Esther Nyarko,Bank Transfer
+O00599,19/04/2026,C065,Samuel Boateng,Eastern,Retail,P013,Webcam,Accessories,8,320,Cynthia Aidoo,Cash
+O00600,27/04/2026,C044,Adwoa Darko,Ashanti,Corporate,P010,External SSD 1TB,Storage,4,720,David Kwarteng,Bank Transfer
+O00601,10/08/2026,C108,Joseph Boateng,Northern,SME,P018,Ethernet Cable 10m,Networking,1,99.75,Francis Amoah,Card
+O00602,10/06/2026,C026,Ibrahim Boateng,Northern,SME,P007,Office Laptop,Computers,3,5200,Francis Amoah,Card
+O00603,10/05/2026,C091,Kofi Boadu,Eastern,Retail,P006,Laptop Stand,Accessories,2,160,Francis Amoah,Mobile Money
+O00604,25/05/2026,C098,Grace Boadu,Eastern,Retail,P012,External HDD 2TB,Storage,2,504,Francis Amoah,Cash
+O00605,16/03/2026,C087,Priscilla Issah,Eastern,Retail,P018,Ethernet Cable 10m,Networking,5,95,Akua Mensimah,Mobile Money
+O00606,08/02/2026,C004,Akosua Boadu,Central,Retail,P013,Webcam,Accessories,1,304,Benjamin Osei,Bank Transfer
+O00607,16/03/2026,C097,Grace Appiah,Greater Accra,Retail,P006,Laptop Stand,Accessories,3,160,Akua Mensimah,Bank Transfer
+O00608,10/01/2026,C027,Kojo Boateng,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,2,95,Akua Mensimah,Card
+O00609,11/04/2026,C096,Efua Sarpong,Northern,SME,P018,Ethernet Cable 10m,Networking,1,95,Francis Amoah,Mobile Money
+O00610,11/04/2026,C119,Kojo Issah,Western,Retail,P013,Webcam,Accessories,2,320,Esther Nyarko,Mobile Money
+O00611,22/02/2026,C002,Kofi Boateng,Ashanti,Corporate,P009,Tablet,Computers,3,3100,Benjamin Osei,Bank Transfer
+O00612,10/07/2026,C097,Grace Appiah,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,3,95,Cynthia Aidoo,Cash
+O00613,18/02/2026,C023,Akosua Boadu,Northern,Retail,P003,USB-C Hub,Accessories,8,189,Akua Mensimah,Cash
+O00614,14/03/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P014,Noise-Cancelling Headset,Audio,2,650,Benjamin Osei,Bank Transfer
+O00615,01/05/2026,C001,Kwame Mensah,Northern,SME,P011,Flash Drive 128GB,Storage,3,110,Akua Mensimah,Card
+O00616,03/06/2026,C119,Kojo Issah,Western,Retail,P011,Flash Drive 128GB,Storage,1,115.5,Francis Amoah,Bank Transfer
+O00617,03/04/2026,C063,Kofi Owusu,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,1,95,Esther Nyarko,Card
+O00618,19/01/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P017,Network Switch,Networking,4,760,David Kwarteng,Cash
+O00619,27/02/2026,C012,Akosua Agyeman,Greater Accra,SME,P012,External HDD 2TB,Storage,5,480,Cynthia Aidoo,Bank Transfer
+O00620,13/07/2026,C038,Joseph Owusu,Central,SME,P007,Office Laptop,Computers,3,5200,Esther Nyarko,Mobile Money
+O00621,26/04/2026,C015,Akosua Darko,Western,Corporate,P012,External HDD 2TB,Storage,1,504,Esther Nyarko,Card
+O00622,09/04/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P011,Flash Drive 128GB,Storage,6,104.5,David Kwarteng,Bank Transfer
+O00623,08/01/2026,C070,Kojo Sarpong,Northern,Corporate,P010,External SSD 1TB,Storage,6,720,Esther Nyarko,Cash
+O00624,18/03/2026,C063,Kofi Owusu,Greater Accra,SME,P002,Mechanical Keyboard,Accessories,5,240,Cynthia Aidoo,Mobile Money
+O00625,18/07/2026,C013,Daniel Boadu,Western,Retail,P006,Laptop Stand,Accessories,2,152,Francis Amoah,Mobile Money
+O00626,11/08/2026,C027,Kojo Boateng,Greater Accra,SME,P007,Office Laptop,Computers,3,4940,Benjamin Osei,Cash
+O00627,12/07/2026,C083,Samuel Asare,Ashanti,SME,P003,USB-C Hub,Accessories,3,171,David Kwarteng,Bank Transfer
+O00628,20/01/2026,C005,Ama Owusu,Ashanti,Retail,P003,USB-C Hub,Accessories,1,180,Esther Nyarko,Mobile Money
+O00629,23/08/2026,C074,Efua Agyeman,Ashanti,SME,P008,Performance Laptop,Computers,1,8200,David Kwarteng,Cash
+O00630,06/01/2026,C056,Abena Issah,Eastern,Corporate,P011,Flash Drive 128GB,Storage,2,104.5,Esther Nyarko,Mobile Money
+O00631,14/07/2026,C083,Samuel Asare,Ashanti,SME,P003,USB-C Hub,Accessories,3,171,Francis Amoah,Mobile Money
+O00632,29/01/2026,C046,Priscilla Boadu,Ashanti,Retail,P017,Network Switch,Networking,1,760,Esther Nyarko,Mobile Money
+O00633,09/04/2026,C037,Yaw Quaye,Northern,SME,P015,Bluetooth Speaker,Audio,2,399,David Kwarteng,Card
+O00634,05/02/2026,C069,Daniel Agyeman,Central,SME,P008,Performance Laptop,Computers,3,8610,Cynthia Aidoo,Card
+O00635,04/01/2026,C039,Joseph Addo,Eastern,SME,P012,External HDD 2TB,Storage,2,504,Benjamin Osei,Mobile Money
+O00636,28/05/2026,C006, Priscilla Boadu ,Greater Accra,Corporate,P001,Wireless Mouse,Accessories,3,89.25,Esther Nyarko,Mobile Money
+O00637,12/07/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P007,Office Laptop,Computers,3,5200,Benjamin Osei,Cash
+O00638,07/02/2026,C116,Efua Darko,Greater Accra,SME,P017,Network Switch,Networking,1,760,Esther Nyarko,Bank Transfer
+O00639,17/02/2026,C025,Grace Agyeman,Western,Corporate,P004,24-inch Monitor,Displays,3,1522.5,Akua Mensimah,Cash
+O00640,20/01/2026,C083,Samuel Asare,Ashanti,SME,P018,Ethernet Cable 10m,Networking,1,90.25,Cynthia Aidoo,Mobile Money
+O00641,27/03/2026,C026,Ibrahim Boateng,Northern,SME,P016,Wi-Fi Router,Networking,2,590,Akua Mensimah,Bank Transfer
+O00642,20/08/2026,C080,Yaw Agyeman,Greater Accra,SME,P003,USB-C Hub,Accessories,1,180,David Kwarteng,Bank Transfer
+O00643,28/06/2026,C079,Samuel Boateng,Central,Retail,P010,External SSD 1TB,Storage,-2,756,Esther Nyarko,Bank Transfer
+O00644,21/04/2026,C104,Ama Sarpong,Eastern,SME,P011,Flash Drive 128GB,Storage,1,110,Benjamin Osei,Card
+O00645,13/03/2026,C092,Joseph Owusu,Central,Corporate,P014,Noise-Cancelling Headset,Audio,5,650,Francis Amoah,Bank Transfer
+O00646,30/04/2026,C113,Adwoa Asare,Northern,SME,P016,Wi-Fi Router,Networking,2,590,David Kwarteng,Mobile Money
+O00647,05/08/2026,C023,Akosua Boadu,Northern,Retail,P003,USB-C Hub,Accessories,1,180,Esther Nyarko,Card
+O00648,07/07/2026,C034,Mariam Agyeman,Western,Retail,P003,USB-C Hub,Accessories,1,171,Esther Nyarko,Mobile Money
+O00649,17/07/2026,C105,Kwame Issah,Ashanti,SME,P013,Webcam,Accessories,3,304,Esther Nyarko,Bank Transfer
+O00650,02/05/2026,C070,Kojo Sarpong,Northern,Corporate,P018,Ethernet Cable 10m,Networking,3,95,Cynthia Aidoo,Cash
+O00651,05/02/2026,C029,Mariam Issah,Northern,SME,P010,External SSD 1TB,Storage,2,756,Akua Mensimah,Cash
+O00652,04/01/2026,C047,Daniel Quaye,Ashanti,Corporate,P017,Network Switch,Networking,3,798,Francis Amoah,Card
+O00653,06/02/2026,C097,Grace Appiah,Greater Accra,Retail,P017,Network Switch,Networking,2,760,Esther Nyarko,Card
+O00654,03/04/2026,C095,Esi Boateng,Western,SME,P016,Wi-Fi Router,Networking,1,590,Benjamin Osei,Mobile Money
+O00655,02/03/2026,C034,Mariam Agyeman,Western,Retail,P012,External HDD 2TB,Storage,1,480,Esther Nyarko,Bank Transfer
+O00656,24/08/2026,C050,Daniel Issah,Western,Retail,P016,Wi-Fi Router,Networking,2,560.5,Akua Mensimah,Bank Transfer
+O00657,13/06/2026,C014,Grace Darko,Greater Accra,SME,P017,Network Switch,Networking,4,760,Esther Nyarko,Card
+O00658,05/04/2026,C049,Esi Addo,Greater Accra,Retail,P013,Webcam,Accessories,2,304,Esther Nyarko,Bank Transfer
+O00659,14/05/2026,C049,Esi Addo,Greater Accra,Retail,P008,Performance Laptop,Computers,2,8200,David Kwarteng,Cash
+O00660,10/05/2026,C114,Ibrahim Tetteh,Central,Corporate,P001,Wireless Mouse,Accessories,5,85,Benjamin Osei,Card
+O00661,15/06/2026,C010,Michael Appiah,Western,Retail,P017,Network Switch,Networking,1,760,Benjamin Osei,Card
+O00662,20/06/2026,C047,Daniel Quaye,Ashanti,Corporate,P004,24-inch Monitor,Displays,1,1450,Francis Amoah,Mobile Money
+O00663,04/05/2026,C062,Akosua Tetteh,Northern,Retail,P016,Wi-Fi Router,Networking,1,590,Francis Amoah,Cash
+O00664,13/01/2026,C003,Kwame Sarpong,Northern,Corporate,P008,Performance Laptop,Computers,1,8610,Benjamin Osei,Card
+O00665,12/01/2026,C081,Adwoa Issah,Central,SME,P017,Network Switch,Networking,5,760,Akua Mensimah,Card
+O00666,14/05/2026,C034,Mariam Agyeman,Western,Retail,P006,Laptop Stand,Accessories,8,168,Esther Nyarko,Mobile Money
+O00667,23/01/2026,C113,Adwoa Asare,Northern,SME,P010,External SSD 1TB,Storage,1,756,David Kwarteng,Cash
+O00668,02/08/2026,C022,Adwoa Tetteh,Northern,Corporate,P008,Performance Laptop,Computers,2,8200,Esther Nyarko,Card
+O00669,10/03/2026,C080,Yaw Agyeman,Greater Accra,SME,P017,Network Switch,Networking,1,760,David Kwarteng,Mobile Money
+O00670,10/04/2026,C030,Abena Sarpong,Central,SME,P013,Webcam,Accessories,1,304,Benjamin Osei,Cash
+O00671,06/06/2026,C106,Kwame Issah,Greater Accra,Corporate,P005,27-inch Monitor,Displays,1,2200,Esther Nyarko,Mobile Money
+O00672,10/05/2026,C113,Adwoa Asare,Northern,SME,P018,Ethernet Cable 10m,Networking,4,90.25,David Kwarteng,Card
+O00673,01/08/2026,C116,Efua Darko,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,1,95,Esther Nyarko,Cash
+O00674,29/06/2026,C048,Priscilla Issah,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,2,240,David Kwarteng,Cash
+O00675,20/04/2026,C045,Kwame Amankwah,Northern,SME,P004,24-inch Monitor,Displays,1,1450,Benjamin Osei,Mobile Money
+O00676,16/04/2026,C037,Yaw Quaye,Northern,SME,P018,Ethernet Cable 10m,Networking,1,90.25,Francis Amoah,Mobile Money
+O00677,01/02/2026,C074,Efua Agyeman,Ashanti,SME,P017,Network Switch,Networking,2,760,Francis Amoah,Card
+O00678,16/04/2026,C089,Akosua Boadu,Greater Accra,Corporate,P011,Flash Drive 128GB,Storage,2,110,David Kwarteng,Bank Transfer
+O00679,20/04/2026,C034,Mariam Agyeman,Western,Retail,P018,Ethernet Cable 10m,Networking,2,99.75,Cynthia Aidoo,Cash
+O00680,17/04/2026,C097,Grace Appiah,Greater Accra,Retail,P007,Office Laptop,Computers,2,5460,David Kwarteng,Card
+O00681,24/05/2026,C048,Priscilla Issah,Greater Accra,Corporate,P018,Ethernet Cable 10m,Networking,2,95,Esther Nyarko,Bank Transfer
+O00682,09/07/2026,C100,Adwoa Asare,Western,Retail,P013,Webcam,Accessories,1,304,Francis Amoah,Card
+O00683,27/01/2026,C058,Daniel Addo,Eastern,SME,P006,Laptop Stand,Accessories,1,160,Cynthia Aidoo,Mobile Money
+O00684,13/06/2026,C021,Yaw Appiah,Western,Retail,P013,Webcam,Accessories,1,304,Benjamin Osei,Cash
+O00685,24/01/2026,C119,Kojo Issah,Western,Retail,P014,Noise-Cancelling Headset,Audio,1,650,Cynthia Aidoo,Mobile Money
+O00686,06/07/2026,C078,Kofi Asare,Central,SME,P002,Mechanical Keyboard,Accessories,2,240,Esther Nyarko,Bank Transfer
+O00687,19/07/2026,C092,Joseph Owusu,Central,Corporate,P002,Mechanical Keyboard,Accessories,4,240,David Kwarteng,Mobile Money
+O00688,16/03/2026,C026,Ibrahim Boateng,Northern,SME,P017,Network Switch,Networking,1,798,Esther Nyarko,Card
+O00689,23/06/2026,C079,Samuel Boateng,Central,Retail,P006,Laptop Stand,Accessories,1,160,Francis Amoah,Mobile Money
+O00690,13/03/2026,C021, Yaw Appiah ,Western,Retail,P003,USB-C Hub,Accessories,4,180,Francis Amoah,Cash
+O00691,14/05/2026,C052,Akosua Tetteh,Central,Retail,P007,Office Laptop,Computers,1,4940,Akua Mensimah,Bank Transfer
+O00692,24/08/2026,C093,Mariam Boadu,Eastern,SME,P018,Ethernet Cable 10m,Networking,2,95,Cynthia Aidoo,Card
+O00693,28/04/2026,C078,Kofi Asare,Central,SME,P007,Office Laptop,Computers,6,5460,Akua Mensimah,Bank Transfer
+O00694,11/05/2026,C023,Akosua Boadu,Northern,Retail,P014,Noise-Cancelling Headset,Audio,1,617.5,Esther Nyarko,Bank Transfer
+O00695,26/07/2026,C044, Adwoa Darko ,Ashanti,Corporate,P004,24-inch Monitor,Displays,2,1450,Esther Nyarko,Bank Transfer
+O00696,08/04/2026,C089,Akosua Boadu,Greater Accra,Corporate,P015,Bluetooth Speaker,Audio,2,420,Cynthia Aidoo,Cash
+O00697,19/08/2026,C088,Kojo Darko,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,2,399,David Kwarteng,Mobile Money
+O00698,09/04/2026,C034,Mariam Agyeman,Western,Retail,P003,USB-C Hub,Accessories,3,180,Francis Amoah,Card
+O00699,17/04/2026,C103,Nana Boadu,Northern,Corporate,P011,Flash Drive 128GB,Storage,8,,Esther Nyarko,Mobile Money
+O00700,06/03/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P009,Tablet,Computers,1,3100,Francis Amoah,Bank Transfer
+O00701,16/02/2026,C010,Michael Appiah,Western,Retail,P018,Ethernet Cable 10m,Networking,2,95,Benjamin Osei,Bank Transfer
+O00702,09/05/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P007,Office Laptop,Computers,3,5200,Francis Amoah,Card
+O00703,23/02/2026,C112,Kojo Mensah,Western,Retail,P009,Tablet,Computers,1,3100,Esther Nyarko,Bank Transfer
+O00704,01/02/2026,C020,Adwoa Addo,Northern,SME,P004,24-inch Monitor,Displays,6,1450,Esther Nyarko,Mobile Money
+O00705,12/01/2026,C098,Grace Boadu,Eastern,Retail,P018,Ethernet Cable 10m,Networking,5,95,Esther Nyarko,Bank Transfer
+O00706,07/05/2026,C064,Akosua Darko,Ashanti,SME,P009,Tablet,Computers,1,3255,Cynthia Aidoo,Cash
+O00707,15/01/2026,C029,Mariam Issah,Northern,SME,P005,27-inch Monitor,Displays,2,2200,David Kwarteng,Mobile Money
+O00708,12/04/2026,C065,Samuel Boateng,Eastern,Retail,P012,External HDD 2TB,Storage,5,480,David Kwarteng,Mobile Money
+O00709,29/04/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P017,Network Switch,Networking,1,722,Akua Mensimah,Card
+O00710,26/03/2026,C049, Esi Addo ,Greater Accra,Retail,P004,24-inch Monitor,Displays,2,1450,Benjamin Osei,Bank Transfer
+O00711,02/05/2026,C031,Grace Asare,Western,Retail,P009,Tablet,Computers,8,3100,Cynthia Aidoo,Card
+O00712,24/02/2026,C064,Akosua Darko,Ashanti,SME,P014,Noise-Cancelling Headset,Audio,2,650,Cynthia Aidoo,Cash
+O00713,17/02/2026,C036,Kojo Amankwah,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,2,441,Francis Amoah,Card
+O00714,05/07/2026,C105,Kwame Issah,Ashanti,,P004,24-inch Monitor,Displays,1,1450,Esther Nyarko,Cash
+O00715,21/02/2026,C110,Priscilla Addo,Western,Retail,P013,Webcam,Accessories,1,320,David Kwarteng,Mobile Money
+O00716,09/05/2026,C023,Akosua Boadu,Northern,Retail,P014,Noise-Cancelling Headset,Audio,1,682.5,Esther Nyarko,Bank Transfer
+O00717,19/03/2026,C101,Kofi Appiah,Western,Retail,P016,Wi-Fi Router,Networking,1,619.5,Akua Mensimah,Cash
+O00718,17/01/2026,C013,Daniel Boadu,Western,Retail,P006,Laptop Stand,Accessories,1,160,David Kwarteng,Mobile Money
+O00719,09/03/2026,C058,Daniel Addo,Eastern,SME,P011,Flash Drive 128GB,Storage,2,115.5,Esther Nyarko,Bank Transfer
+O00720,17/04/2026,C045,Kwame Amankwah,Northern,SME,P001,Wireless Mouse,Accessories,1,89.25,Benjamin Osei,Card
+O00721,02/04/2026,C100,Adwoa Asare,Western,Retail,P010,External SSD 1TB,Storage,1,756,David Kwarteng,Cash
+O00722,09/04/2026,C114,Ibrahim Tetteh,Central,Corporate,P003,USB-C Hub,Accessories,3,180,Francis Amoah,Card
+O00723,14/06/2026,C112,Kojo Mensah,Western,Retail,P006,Laptop Stand,Accessories,4,160,David Kwarteng,Cash
+O00724,22/01/2026,C109,Abena Sarpong,Northern,SME,P003,USB-C Hub,Accessories,1,180,Cynthia Aidoo,Bank Transfer
+O00725,02/07/2026,C084,Abena Mensah,Eastern,Corporate,P010,External SSD 1TB,Storage,1,720,Cynthia Aidoo,Cash
+O00726,12/07/2026,C100,Adwoa Asare,Western,Retail,P012,External HDD 2TB,Storage,2,480,David Kwarteng,Card
+O00727,03/02/2026,C024, Ibrahim Tetteh ,Ashanti,Retail,P001,Wireless Mouse,Accessories,3,85,Francis Amoah,Mobile Money
+O00728,13/04/2026,C027,Kojo Boateng,Greater Accra,SME,P006,Laptop Stand,Accessories,1,152,David Kwarteng,Mobile Money
+O00729,16/05/2026,C004,Akosua Boadu,Central,Retail,P013,Webcam,Accessories,4,304,Akua Mensimah,Bank Transfer
+O00730,23/01/2026,C080,Yaw Agyeman,Greater Accra,SME,P005,27-inch Monitor,Displays,3,2200,Cynthia Aidoo,Card
+O00731,25/04/2026,C032,Kofi Tetteh,Eastern,Corporate,P010,External SSD 1TB,Storage,3,720,Esther Nyarko,Card
+O00732,20/06/2026,C004,Akosua Boadu,Central,Retail,P002,Mechanical Keyboard,Accessories,2,240,David Kwarteng,Cash
+O00733,12/03/2026,C112,Kojo Mensah,Western,Retail,P018,Ethernet Cable 10m,Networking,2,95,Francis Amoah,Card
+O00734,12/06/2026,C076,Ibrahim Owusu,Greater Accra,Corporate,P015,Bluetooth Speaker,Audio,3,441,David Kwarteng,Bank Transfer
+O00735,05/05/2026,C117,Mariam Darko,Ashanti,SME,P012,External HDD 2TB,Storage,2,456,David Kwarteng,Bank Transfer
+O00736,09/03/2026,C047,Daniel Quaye,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,1,617.5,Akua Mensimah,Card
+O00737,02/05/2026,C045,Kwame Amankwah,Northern,SME,P010,External SSD 1TB,Storage,2,720,David Kwarteng,Bank Transfer
+O00738,25/07/2026,C002,Kofi Boateng,Ashanti,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Akua Mensimah,Bank Transfer
+O00739,15/08/2026,C025,Grace Agyeman,Western,Corporate,P014,Noise-Cancelling Headset,Audio,2,650,Benjamin Osei,Card
+O00740,02/08/2026,C092,Joseph Owusu,Central,Corporate,P013,Webcam,Accessories,2,320,Akua Mensimah,Cash
+O00741,14/05/2026,C081,Adwoa Issah,Central,SME,P008,Performance Laptop,Computers,4,8610,Francis Amoah,Bank Transfer
+O00742,28/07/2026,C037,Yaw Quaye,Northern,SME,P018,Ethernet Cable 10m,Networking,1,95,Akua Mensimah,Card
+O00743,30/01/2026,C018,Kofi Quaye,Western,Retail,P010,External SSD 1TB,Storage,3,756,David Kwarteng,Bank Transfer
+O00744,19/02/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,1,590,Akua Mensimah,Mobile Money
+O00745,15/03/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P004,24-inch Monitor,Displays,1,1450,Francis Amoah,Mobile Money
+O00746,09/02/2026,C030,Abena Sarpong,Central,SME,P003,USB-C Hub,Accessories,1,180,Cynthia Aidoo,Cash
+O00747,07/04/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,2,560.5,Cynthia Aidoo,Mobile Money
+O00748,16/01/2026,C108,Joseph Boateng,Northern,SME,P005,27-inch Monitor,Displays,1,2200,Akua Mensimah,Cash
+O00749,19/08/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P007,Office Laptop,Computers,5,5200,Akua Mensimah,Mobile Money
+O00750,10/04/2026,C099,Akosua Darko,Ashanti,Corporate,P008,Performance Laptop,Computers,4,8200,Benjamin Osei,Mobile Money
+O00751,09/07/2026,C026,Ibrahim Boateng,Northern,SME,P015,Bluetooth Speaker,Audio,4,441,Francis Amoah,Card
+O00752,25/06/2026,C061,Kofi Boadu,Ashanti,Retail,P013,Webcam,Accessories,8,320,Benjamin Osei,Mobile Money
+O00753,15/05/2026,C096,Efua Sarpong,Northern,SME,P018,Ethernet Cable 10m,Networking,1,95,Francis Amoah,Bank Transfer
+O00754,17/08/2026,C026,Ibrahim Boateng,Northern,SME,P012,External HDD 2TB,Storage,1,480,Akua Mensimah,Card
+O00755,26/03/2026,C082,Michael Tetteh,Northern,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Esther Nyarko,Mobile Money
+O00756,04/01/2026,C051,Kojo Boateng,Eastern,Retail,P008,Performance Laptop,Computers,8,8610,Francis Amoah,Cash
+O00757,07/04/2026,C089,Akosua Boadu,Greater Accra,Corporate,P005,27-inch Monitor,Displays,4,2200,Benjamin Osei,Cash
+O00758,15/07/2026,C012,Akosua Agyeman,Greater Accra,SME,P011,Flash Drive 128GB,Storage,3,104.5,Cynthia Aidoo,Card
+O00759,23/07/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P018,Ethernet Cable 10m,Networking,1,95,Benjamin Osei,Bank Transfer
+O00760,27/07/2026,C072,Esi Quaye,Greater Accra,Retail,P012,External HDD 2TB,Storage,5,480,Akua Mensimah,Cash
+O00761,07/03/2026,C046,Priscilla Boadu,Ashanti,Retail,P005,27-inch Monitor,Displays,5,2200,Francis Amoah,Cash
+O00762,20/05/2026,C072,Esi Quaye,Greater Accra,Retail,P010,External SSD 1TB,Storage,3,720,Esther Nyarko,Card
+O00763,25/03/2026,C070,Kojo Sarpong,Northern,Corporate,P012,External HDD 2TB,Storage,3,480,Esther Nyarko,Card
+O00764,10/02/2026,C009,Mariam Ofori,Greater Accra,Retail,P017,Network Switch,Networking,2,760,Esther Nyarko,Bank Transfer
+O00765,19/07/2026,C059,Kwame Boateng,Ashanti,Retail,P001,Wireless Mouse,Accessories,3,85,Francis Amoah,Card
+O00766,09/06/2026,C114,Ibrahim Tetteh,Central,Corporate,P001,Wireless Mouse,Accessories,5,89.25,Benjamin Osei,Bank Transfer
+O00767,19/06/2026,C093,Mariam Boadu,Eastern,SME,P003,USB-C Hub,Accessories,8,180,Benjamin Osei,Cash
+O00768,10/02/2026,C099,Akosua Darko,Ashanti,Corporate,P018,Ethernet Cable 10m,Networking,3,95,David Kwarteng,Bank Transfer
+O00769,15/05/2026,C015,Akosua Darko,Western,Corporate,P004,24-inch Monitor,Displays,3,1377.5,Benjamin Osei,Card
+O00770,22/02/2026,C112,Kojo Mensah,Western,Retail,P002,Mechanical Keyboard,Accessories,1,240,Akua Mensimah,Mobile Money
+O00771,19/06/2026,C074,Efua Agyeman,Ashanti,SME,P013,Webcam,Accessories,2,336,Francis Amoah,Bank Transfer
+O00772,27/02/2026,C007,Abena Tetteh,Northern,Corporate,P012,External HDD 2TB,Storage,3,456,Akua Mensimah,Card
+O00773,17/08/2026,C084,Abena Mensah,Eastern,Corporate,P016,Wi-Fi Router,Networking,4,590,Francis Amoah,Mobile Money
+O00774,11/07/2026,C047,Daniel Quaye,Ashanti,Corporate,P018,Ethernet Cable 10m,Networking,6,95,Cynthia Aidoo,Mobile Money
+O00775,17/05/2026,C106,Kwame Issah,Greater Accra,Corporate,P009,Tablet,Computers,1,2945,Cynthia Aidoo,Mobile Money
+O00776,26/01/2026,C028,Linda Ofori,Greater Accra,Retail,P017,Network Switch,Networking,1,760,Esther Nyarko,Cash
+O00777,16/05/2026,C025,Grace Agyeman,Western,Corporate,P007,Office Laptop,Computers,3,5460,Francis Amoah,Card
+O00778,18/04/2026,C072,Esi Quaye,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,3,99.75,Cynthia Aidoo,Cash
+O00779,16/08/2026,C090,Kofi Agyeman,Greater Accra,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Esther Nyarko,Cash
+O00780,19/06/2026,C065,Samuel Boateng,Eastern,Retail,P011,Flash Drive 128GB,Storage,1,115.5,David Kwarteng,Bank Transfer
+O00781,22/05/2026,C116,Efua Darko,Greater Accra,SME,P011,Flash Drive 128GB,Storage,10,110,Cynthia Aidoo,Cash
+O00782,01/08/2026,C098,Grace Boadu,Eastern,Retail,P014,Noise-Cancelling Headset,Audio,3,682.5,Benjamin Osei,Card
+O00783,11/07/2026,C049,Esi Addo,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,1,95,David Kwarteng,Cash
+O00784,15/03/2026,C001,Kwame Mensah,Northern,SME,P002,Mechanical Keyboard,Accessories,3,252,Benjamin Osei,Bank Transfer
+O00785,27/02/2026,C001,Kwame Mensah,Northern,SME,P010,External SSD 1TB,Storage,1,720,Akua Mensimah,Bank Transfer
+O00786,12/05/2026,C118,Efua Mensah,Western,SME,P018,Ethernet Cable 10m,Networking,2,99.75,Benjamin Osei,Mobile Money
+O00787,03/04/2026,C005,Ama Owusu,Ashanti,Retail,P015,Bluetooth Speaker,Audio,1,420,Cynthia Aidoo,Card
+O00788,28/07/2026,C030,Abena Sarpong,Central,SME,P009,Tablet,Computers,1,3255,David Kwarteng,Card
+O00789,06/07/2026,C094,Adwoa Boateng,Northern,Corporate,P003,USB-C Hub,Accessories,1,180,Benjamin Osei,Cash
+O00790,03/06/2026,C106,Kwame Issah,Greater Accra,Corporate,P004,24-inch Monitor,Displays,3,1377.5,Francis Amoah,Cash
+O00791,25/08/2026,C011,Abena Quaye,Western,Retail,P002,Mechanical Keyboard,Accessories,4,240,David Kwarteng,Cash
+O00792,12/08/2026,C120,Kofi Sarpong,Greater Accra,SME,P004,24-inch Monitor,Displays,4,1522.5,Akua Mensimah,Cash
+O00793,16/05/2026,C007,Abena Tetteh,Northern,Corporate,P010,External SSD 1TB,Storage,1,756,Esther Nyarko,Card
+O00794,29/06/2026,C042,Esi Owusu,Western,SME,P017,Network Switch,Networking,1,722,Francis Amoah,Cash
+O00795,25/01/2026,C058,Daniel Addo,Eastern,SME,P017,Network Switch,Networking,1,760,David Kwarteng,Card
+O00796,23/01/2026,C017,Abena Tetteh,Greater Accra,Retail,P011,Flash Drive 128GB,Storage,2,104.5,Esther Nyarko,Cash
+O00797,14/04/2026,C034,Mariam Agyeman,Western,Retail,P003,USB-C Hub,Accessories,2,180,Benjamin Osei,Cash
+O00798,06/05/2026,C072,Esi Quaye,Greater Accra,Retail,P007,Office Laptop,Computers,2,5460,Benjamin Osei,Card
+O00799,11/03/2026,C032,Kofi Tetteh,Eastern,Corporate,P003,USB-C Hub,Accessories,4,180,Francis Amoah,Mobile Money
+O00800,20/04/2026,C015,Akosua Darko,Western,Corporate,P014,Noise-Cancelling Headset,Audio,2,650,Cynthia Aidoo,Bank Transfer
+O00801,18/07/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P001,Wireless Mouse,Accessories,1,85,Esther Nyarko,Cash
+O00802,24/04/2026,C080,Yaw Agyeman,Greater Accra,SME,P005,27-inch Monitor,Displays,1,2200,Benjamin Osei,Bank Transfer
+O00803,30/01/2026,C020,Adwoa Addo,Northern,SME,P003,USB-C Hub,Accessories,3,180,Esther Nyarko,Card
+O00804,05/01/2026,C112,Kojo Mensah,Western,Retail,P010,External SSD 1TB,Storage,2,684,Cynthia Aidoo,Cash
+O00805,27/03/2026,C061,Kofi Boadu,Ashanti,Retail,P001,Wireless Mouse,Accessories,1,89.25,Benjamin Osei,Card
+O00806,13/07/2026,C070,Kojo Sarpong,Northern,Corporate,P017,Network Switch,Networking,1,760,Esther Nyarko,Card
+O00807,08/04/2026,C089,Akosua Boadu,Greater Accra,Corporate,P001,Wireless Mouse,Accessories,2,89.25,Akua Mensimah,Bank Transfer
+O00808,15/03/2026,C022,Adwoa Tetteh,Northern,Corporate,P002,Mechanical Keyboard,Accessories,1,252,Cynthia Aidoo,Mobile Money
+O00809,19/01/2026,C060,Esi Mensah,Eastern,Corporate,P001,Wireless Mouse,Accessories,2,85,Francis Amoah,Bank Transfer
+O00810,06/01/2026,C111,Akosua Sarpong,Central,SME,P004,24-inch Monitor,Displays,1,1450,Benjamin Osei,Cash
+O00811,21/08/2026,C066,Mariam Boadu,Central,Retail,P004,24-inch Monitor,Displays,1,1522.5,Esther Nyarko,Mobile Money
+O00812,10/05/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P007,Office Laptop,Computers,8,5460,Francis Amoah,Mobile Money
+O00813,17/05/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P008,Performance Laptop,Computers,1,8200,David Kwarteng,Card
+O00814,26/06/2026,C003,Kwame Sarpong,Northern,Corporate,P012,External HDD 2TB,Storage,2,480,Benjamin Osei,Bank Transfer
+O00815,11/06/2026,C104,Ama Sarpong,Eastern,SME,P002,Mechanical Keyboard,Accessories,1,240,Akua Mensimah,Bank Transfer
+O00816,30/03/2026,C029,Mariam Issah,Northern,SME,P005,27-inch Monitor,Displays,5,2200,Akua Mensimah,Cash
+O00817,18/04/2026,C067,Samuel Quaye,Central,Retail,P008,Performance Laptop,Computers,1,8200,David Kwarteng,Bank Transfer
+O00818,26/04/2026,C117,Mariam Darko,Ashanti,SME,P011,Flash Drive 128GB,Storage,2,110,Francis Amoah,Card
+O00819,26/06/2026,C075,Grace Boateng,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,4,95,Cynthia Aidoo,Card
+O00820,18/06/2026,C056, Abena Issah ,Eastern,Corporate,P005,27-inch Monitor,Displays,6,2200,Cynthia Aidoo,Mobile Money
+O00821,05/07/2026,C072,Esi Quaye,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,1,95,Benjamin Osei,Mobile Money
+O00822,15/08/2026,C098,Grace Boadu,Eastern,Retail,P011,Flash Drive 128GB,Storage,8,110,Cynthia Aidoo,Cash
+O00823,09/02/2026,C096,Efua Sarpong,Northern,SME,P009,Tablet,Computers,4,2945,Benjamin Osei,Card
+O00824,06/06/2026,C004,Akosua Boadu,Central,Retail,P009,Tablet,Computers,2,3100,Esther Nyarko,Card
+O00825,03/04/2026,C030,Abena Sarpong,Central,SME,P001,Wireless Mouse,Accessories,1,85,Benjamin Osei,Cash
+O00826,18/02/2026,C092,Joseph Owusu,Central,Corporate,P012,External HDD 2TB,Storage,5,480,David Kwarteng,Card
+O00827,28/02/2026,C021,Yaw Appiah,Western,Retail,P007,Office Laptop,Computers,1,4940,Cynthia Aidoo,Cash
+O00828,14/07/2026,C029,Mariam Issah,Northern,SME,P007,Office Laptop,Computers,1,5200,David Kwarteng,Cash
+O00829,11/08/2026,C089, Akosua Boadu ,Greater Accra,Corporate,P011,Flash Drive 128GB,Storage,2,110,David Kwarteng,Cash
+O00830,06/06/2026,C100,Adwoa Asare,Western,Retail,P002,Mechanical Keyboard,Accessories,3,240,Francis Amoah,Bank Transfer
+O00831,16/05/2026,C051,Kojo Boateng,Eastern,Retail,P018,Ethernet Cable 10m,Networking,3,90.25,Esther Nyarko,Mobile Money
+O00832,01/08/2026,C058,Daniel Addo,Eastern,SME,P015,Bluetooth Speaker,Audio,5,420,Esther Nyarko,Cash
+O00833,24/05/2026,C095,Esi Boateng,Western,SME,P002,Mechanical Keyboard,Accessories,2,228,Benjamin Osei,Bank Transfer
+O00834,16/08/2026,C057,Abena Tetteh,Western,SME,P013,Webcam,Accessories,1,320,David Kwarteng,Card
+O00835,07/06/2026,C055,Priscilla Amankwah,Eastern,SME,P010,External SSD 1TB,Storage,6,756,Benjamin Osei,Cash
+O00836,25/01/2026,C107,Ibrahim Asare,Western,SME,P015,Bluetooth Speaker,Audio,3,399,Benjamin Osei,Card
+O00837,25/03/2026,C051,Kojo Boateng,Eastern,Retail,P014,Noise-Cancelling Headset,Audio,2,650,David Kwarteng,Card
+O00838,25/01/2026,C113,Adwoa Asare,Northern,SME,P015,Bluetooth Speaker,Audio,1,420,Francis Amoah,Mobile Money
+O00839,01/07/2026,C012,Akosua Agyeman,Greater Accra,SME,P004,24-inch Monitor,Displays,2,1450,Akua Mensimah,Cash
+O00840,07/06/2026,C094,Adwoa Boateng,Northern,Corporate,P017,Network Switch,Networking,6,760,Esther Nyarko,Cash
+O00841,23/08/2026,C006,Priscilla Boadu,Greater Accra,Corporate,P006,Laptop Stand,Accessories,1,160,Benjamin Osei,Card
+O00842,19/04/2026,C023,Akosua Boadu,Northern,Retail,P002,Mechanical Keyboard,Accessories,1,240,Cynthia Aidoo,Card
+O00843,22/02/2026,C016,Joseph Issah,Western,Corporate,P005,27-inch Monitor,Displays,1,2200,Akua Mensimah,Cash
+O00844,21/05/2026,C064,Akosua Darko,Ashanti,SME,P016,Wi-Fi Router,Networking,4,619.5,David Kwarteng,Card
+O00845,28/04/2026,C028,Linda Ofori,Greater Accra,Retail,P016,Wi-Fi Router,Networking,2,560.5,Esther Nyarko,Mobile Money
+O00846,14/03/2026,C032, Kofi Tetteh ,Eastern,Corporate,P018,Ethernet Cable 10m,Networking,3,99.75,Benjamin Osei,Mobile Money
+O00847,16/01/2026,C024,Ibrahim Tetteh,Ashanti,Retail,P005,27-inch Monitor,Displays,3,2090,Benjamin Osei,Mobile Money
+O00848,27/03/2026,C086,Kojo Mensah,Eastern,SME,P010,External SSD 1TB,Storage,6,684,Akua Mensimah,Cash
+O00849,23/06/2026,C023,Akosua Boadu,Northern,Retail,P006,Laptop Stand,Accessories,1,168,Esther Nyarko,Card
+O00850,11/01/2026,C059,Kwame Boateng,Ashanti,Retail,P012,External HDD 2TB,Storage,1,480,Cynthia Aidoo,Bank Transfer
+O00851,30/07/2026,C115,Ama Owusu,Greater Accra,Corporate,P013,Webcam,Accessories,1,320,Esther Nyarko,Mobile Money
+O00852,05/02/2026,C038,Joseph Owusu,Central,SME,P016,Wi-Fi Router,Networking,1,590,Cynthia Aidoo,Cash
+O00853,29/06/2026,C068,Kwame Owusu,Northern,SME,P007,Office Laptop,Computers,1,4940,Akua Mensimah,Mobile Money
+O00854,21/04/2026,C062,Akosua Tetteh,Northern,Retail,P010,External SSD 1TB,Storage,3,720,Cynthia Aidoo,Bank Transfer
+O00855,08/06/2026,C119,Kojo Issah,Western,Retail,P005,27-inch Monitor,Displays,2,2310,Francis Amoah,Cash
+O00856,16/08/2026,C064,Akosua Darko,Ashanti,SME,P006,Laptop Stand,Accessories,3,160,Benjamin Osei,Mobile Money
+O00857,01/05/2026,C016,Joseph Issah,Western,Corporate,P001,Wireless Mouse,Accessories,3,80.75,Francis Amoah,Card
+O00858,17/04/2026,C103,Nana Boadu,Northern,Corporate,P014,Noise-Cancelling Headset,Audio,1,650,Esther Nyarko,Card
+O00859,27/06/2026,C002,Kofi Boateng,Ashanti,Corporate,P007,Office Laptop,Computers,1,4940,Cynthia Aidoo,Bank Transfer
+O00860,25/03/2026,C065,Samuel Boateng,Eastern,Retail,P018,Ethernet Cable 10m,Networking,4,90.25,Francis Amoah,Bank Transfer
+O00861,06/07/2026,C044,Adwoa Darko,Ashanti,Corporate,P013,Webcam,Accessories,2,304,Benjamin Osei,Card
+O00862,23/06/2026,C043,Yaw Addo,Greater Accra,Corporate,P011,Flash Drive 128GB,Storage,2,110,Akua Mensimah,Card
+O00863,11/06/2026,C062,Akosua Tetteh,Northern,Retail,P005,27-inch Monitor,Displays,2,2310,Cynthia Aidoo,Cash
+O00864,11/07/2026,C101,Kofi Appiah,Western,Retail,P014,Noise-Cancelling Headset,Audio,1,682.5,Cynthia Aidoo,Bank Transfer
+O00865,06/01/2026,C072,Esi Quaye,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,1,95,Cynthia Aidoo,Mobile Money
+O00866,05/08/2026,C020,Adwoa Addo,Northern,SME,P009,Tablet,Computers,1,3100,Francis Amoah,Card
+O00867,18/02/2026,C074,Efua Agyeman,Ashanti,SME,P013,Webcam,Accessories,3,320,Francis Amoah,Bank Transfer
+O00868,12/03/2026,C091,Kofi Boadu,Eastern,Retail,P002,Mechanical Keyboard,Accessories,2,240,Benjamin Osei,Bank Transfer
+O00869,26/02/2026,C058,Daniel Addo,Eastern,SME,P010,External SSD 1TB,Storage,2,720,Akua Mensimah,Bank Transfer
+O00870,20/07/2026,C101,Kofi Appiah,Western,Retail,P002,Mechanical Keyboard,Accessories,1,228,David Kwarteng,Mobile Money
+O00871,21/08/2026,C103,Nana Boadu,Northern,Corporate,P016,Wi-Fi Router,Networking,2,590,Cynthia Aidoo,Cash
+O00872,22/03/2026,C094,Adwoa Boateng,Northern,Corporate,P017,Network Switch,Networking,4,760,Akua Mensimah,Card
+O00873,29/04/2026,C027,Kojo Boateng,Greater Accra,SME,P002,Mechanical Keyboard,Accessories,2,252,Akua Mensimah,Mobile Money
+O00874,26/06/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,5,228,Cynthia Aidoo,Cash
+O00875,28/01/2026,C114,Ibrahim Tetteh,Central,Corporate,P002,Mechanical Keyboard,Accessories,2,240,Akua Mensimah,Bank Transfer
+O00876,25/03/2026,C082,Michael Tetteh,Northern,Corporate,P007,Office Laptop,Computers,1,5200,Cynthia Aidoo,Bank Transfer
+O00877,22/06/2026,C099,Akosua Darko,Ashanti,Corporate,P015,Bluetooth Speaker,Audio,1,420,Benjamin Osei,Bank Transfer
+O00878,10/06/2026,C015,Akosua Darko,Western,Corporate,P001,Wireless Mouse,Accessories,2,80.75,Benjamin Osei,Bank Transfer
+O00879,12/03/2026,C071,Kwame Mensah,Central,Corporate,P011,Flash Drive 128GB,Storage,1,110,Esther Nyarko,Card
+O00880,22/03/2026,C022,Adwoa Tetteh,Northern,Corporate,P003,USB-C Hub,Accessories,3,180,Esther Nyarko,Cash
+O00881,09/01/2026,C007,Abena Tetteh,Northern,Corporate,P005,27-inch Monitor,Displays,2,2090,Akua Mensimah,Cash
+O00882,21/04/2026,C007,Abena Tetteh,Northern,Corporate,P003,USB-C Hub,Accessories,2,189,Esther Nyarko,Cash
+O00883,22/03/2026,C079,Samuel Boateng,Central,Retail,P012,External HDD 2TB,Storage,1,480,Francis Amoah,Mobile Money
+O00884,27/05/2026,C119,Kojo Issah,Western,Retail,P015,Bluetooth Speaker,Audio,1,420,Akua Mensimah,Cash
+O00885,02/05/2026,C040,Ibrahim Amankwah,Greater Accra,Corporate,P015,Bluetooth Speaker,Audio,1,420,Benjamin Osei,Bank Transfer
+O00886,12/04/2026,C117,Mariam Darko,Ashanti,SME,P012,External HDD 2TB,Storage,1,480,Cynthia Aidoo,Cash
+O00887,18/01/2026,C063,Kofi Owusu,Greater Accra,SME,P001,Wireless Mouse,Accessories,2,85,David Kwarteng,Cash
+O00888,15/03/2026,C109,Abena Sarpong,Northern,SME,P006,Laptop Stand,Accessories,4,168,Esther Nyarko,Card
+O00889,15/04/2026,C066,Mariam Boadu,Central,Retail,P004,24-inch Monitor,Displays,4,1377.5,Cynthia Aidoo,Mobile Money
+O00890,18/05/2026,C102,Grace Amankwah,Eastern,Corporate,P010,External SSD 1TB,Storage,2,756,David Kwarteng,Card
+O00891,22/05/2026,C080,Yaw Agyeman,Greater Accra,SME,P008,Performance Laptop,Computers,1,8200,David Kwarteng,Mobile Money
+O00892,29/07/2026,C044,Adwoa Darko,Ashanti,Corporate,P007,Office Laptop,Computers,3,5200,David Kwarteng,Bank Transfer
+O00893,15/02/2026,C070,Kojo Sarpong,Northern,Corporate,P008,Performance Laptop,Computers,3,7790,Francis Amoah,Cash
+O00894,26/03/2026,C015,Akosua Darko,Western,Corporate,P015,Bluetooth Speaker,Audio,2,420,Benjamin Osei,Bank Transfer
+O00895,04/06/2026,C052,Akosua Tetteh,Central,Retail,P003,USB-C Hub,Accessories,1,189,David Kwarteng,Bank Transfer
+O00896,25/01/2026,C064,Akosua Darko,Ashanti,SME,P002,Mechanical Keyboard,Accessories,-1,240,Esther Nyarko,Mobile Money
+O00897,20/06/2026,C097,Grace Appiah,Greater Accra,Retail,P005,27-inch Monitor,Displays,1,2310,Cynthia Aidoo,Cash
+O00898,21/02/2026,C079,Samuel Boateng,Central,Retail,P015,Bluetooth Speaker,Audio,1,420,Cynthia Aidoo,Bank Transfer
+O00899,04/07/2026,C118,Efua Mensah,Western,SME,P014,Noise-Cancelling Headset,Audio,10,650,Akua Mensimah,Mobile Money
+O00900,15/04/2026,C079,Samuel Boateng,Central,Retail,P017,Network Switch,Networking,5,760,Akua Mensimah,Bank Transfer
+O00901,15/01/2026,C116,Efua Darko,Greater Accra,SME,P018,Ethernet Cable 10m,Networking,1,99.75,Cynthia Aidoo,Mobile Money
+O00902,11/08/2026,C111,Akosua Sarpong,Central,SME,P010,External SSD 1TB,Storage,1,720,Francis Amoah,Cash
+O00903,03/07/2026,C081,Adwoa Issah,Central,SME,P011,Flash Drive 128GB,Storage,2,110,David Kwarteng,Card
+O00904,03/05/2026,C085,Ibrahim Mensah,Northern,SME,P006,Laptop Stand,Accessories,1,168,David Kwarteng,Bank Transfer
+O00905,10/02/2026,C108, Joseph Boateng ,Northern,SME,P014,Noise-Cancelling Headset,Audio,1,650,Benjamin Osei,Mobile Money
+O00906,07/02/2026,C010,Michael Appiah,western,Retail,P001,Wireless Mouse,Accessories,3,85,Francis Amoah,Cash
+O00907,06/02/2026,C018,Kofi Quaye,Western,Retail,P003,USB-C Hub,Accessories,3,180,David Kwarteng,Cash
+O00908,28/04/2026,C080,Yaw Agyeman,Greater Accra,SME,P006,Laptop Stand,Accessories,2,168,David Kwarteng,Cash
+O00909,18/02/2026,C046,Priscilla Boadu,Ashanti,Retail,P008,Performance Laptop,Computers,2,7790,Esther Nyarko,Cash
+O00910,03/07/2026,C109,Abena Sarpong,Northern,SME,P008,Performance Laptop,Computers,2,8200,Esther Nyarko,Bank Transfer
+O00911,27/05/2026,C005,Ama Owusu,Ashanti,Retail,P002,Mechanical Keyboard,Accessories,2,240,Akua Mensimah,Cash
+O00912,07/02/2026,C089,Akosua Boadu,Greater Accra,Corporate,P003,USB-C Hub,Accessories,3,189,Cynthia Aidoo,Cash
+O00913,15/05/2026,C067,Samuel Quaye,Central,Retail,P003,USB-C Hub,Accessories,5,171,Benjamin Osei,Cash
+O00914,26/06/2026,C081,Adwoa Issah,central,SME,P003,USB-C Hub,Accessories,3,189,Cynthia Aidoo,Mobile Money
+O00915,18/05/2026,C116,Efua Darko,Greater Accra,SME,P011,Flash Drive 128GB,Storage,4,110,David Kwarteng,Cash
+O00916,19/04/2026,C074,Efua Agyeman,Ashanti,SME,P011,Flash Drive 128GB,Storage,2,110,Cynthia Aidoo,Card
+O00917,07/07/2026,C005,Ama Owusu,Ashanti,Retail,P010,External SSD 1TB,Storage,4,720,Akua Mensimah,Cash
+O00918,28/05/2026,C075,Grace Boateng,Greater Accra,SME,P006,Laptop Stand,Accessories,1,160,Francis Amoah,Mobile Money
+O00919,23/01/2026,C037,Yaw Quaye,Northern,SME,P016,Wi-Fi Router,Networking,1,560.5,Cynthia Aidoo,Bank Transfer
+O00920,13/03/2026,C017,Abena Tetteh,greater accra,Retail,P009,Tablet,Computers,5,2945,Francis Amoah,Mobile Money
+O00921,22/08/2026,C078,Kofi Asare,Central,SME,P006,Laptop Stand,Accessories,3,160,Francis Amoah,Cash
+O00922,09/03/2026,C048, Priscilla Issah ,Greater Accra,Corporate,P006,Laptop Stand,Accessories,4,160,David Kwarteng,Card
+O00923,10/08/2026,C103,Nana Boadu,Northern,Corporate,P017,Network Switch,Networking,1,722,Benjamin Osei,Card
+O00924,13/07/2026,C108,Joseph Boateng,Northern,SME,P016,Wi-Fi Router,Networking,10,590,Benjamin Osei,Cash
+O00925,24/02/2026,C093,Mariam Boadu,Eastern,SME,P006,Laptop Stand,Accessories,2,160,Akua Mensimah,Bank Transfer
+O00926,15/01/2026,C097,Grace Appiah,Greater Accra,Retail,P004,24-inch Monitor,Displays,1,1450,David Kwarteng,Bank Transfer
+O00927,02/03/2026,C061,Kofi Boadu,Ashanti,Retail,P018,Ethernet Cable 10m,Networking,2,95,David Kwarteng,Bank Transfer
+O00928,12/08/2026,C019,Kofi Amankwah,Greater Accra,SME,P017,Network Switch,Networking,2,760,David Kwarteng,Cash
+O00929,17/05/2026,C087,Priscilla Issah,Eastern,Retail,P011,Flash Drive 128GB,Storage,3,104.5,Akua Mensimah,Bank Transfer
+O00930,07/06/2026,C109,Abena Sarpong,Northern,SME,P014,Noise-Cancelling Headset,Audio,6,650,Cynthia Aidoo,Bank Transfer
+O00931,08/03/2026,C035,Efua Darko,Central,Retail,P004,24-inch Monitor,Displays,3,1450,David Kwarteng,Card
+O00932,15/05/2026,C094,Adwoa Boateng,Northern,Corporate,P007,Office Laptop,Computers,1,5200,Cynthia Aidoo,Mobile Money
+O00933,02/08/2026,C087,Priscilla Issah,Eastern,Retail,P001,Wireless Mouse,Accessories,1,85,Akua Mensimah,Mobile Money
+O00934,01/04/2026,C088,Kojo Darko,Greater Accra,Retail,P015,Bluetooth Speaker,Audio,1,420,Cynthia Aidoo,Card
+O00935,09/06/2026,C005,Ama Owusu,Ashanti,Retail,P001,Wireless Mouse,Accessories,1,89.25,Francis Amoah,Card
+O00936,02/07/2026,C077,Ibrahim Amankwah,Greater Accra,Retail,P004,24-inch Monitor,Displays,8,1377.5,Esther Nyarko,Card
+O00937,19/08/2026,C049,Esi Addo,Greater Accra,Retail,P006,Laptop Stand,Accessories,1,160,Cynthia Aidoo,Bank Transfer
+O00938,14/06/2026,C060,Esi Mensah,Eastern,Corporate,P003,USB-C Hub,Accessories,2,180,David Kwarteng,Bank Transfer
+O00939,20/07/2026,C033,Adwoa Tetteh,Eastern,SME,P006,Laptop Stand,Accessories,1,152,David Kwarteng,Cash
+O00940,09/03/2026,C043,Yaw Addo,Greater Accra,Corporate,P002,Mechanical Keyboard,Accessories,8,240,Benjamin Osei,Cash
+O00941,22/02/2026,C009,Mariam Ofori,Greater Accra,Retail,P016,Wi-Fi Router,Networking,3,590,Francis Amoah,Cash
+O00942,20/05/2026,C014,Grace Darko,Greater Accra,SME,P005,27-inch Monitor,Displays,4,2200,Esther Nyarko,Mobile Money
+O00943,04/07/2026,C117,Mariam Darko,Ashanti,SME,P015,Bluetooth Speaker,Audio,1,399,Akua Mensimah,Mobile Money
+O00944,19/07/2026,C074,Efua Agyeman,Ashanti,SME,P009,Tablet,Computers,2,3100,Benjamin Osei,Mobile Money
+O00945,21/06/2026,C120,Kofi Sarpong,Greater Accra,SME,P002,Mechanical Keyboard,Accessories,2,240,Francis Amoah,Bank Transfer
+O00946,29/05/2026,C116,Efua Darko,Greater Accra,SME,P013,Webcam,Accessories,1,320,David Kwarteng,Cash
+O00947,20/05/2026,C052,Akosua Tetteh,Central,Retail,P003,USB-C Hub,Accessories,1,180,Francis Amoah,Cash
+O00948,03/04/2026,C016,Joseph Issah,Western,Corporate,P018,Ethernet Cable 10m,Networking,1,95,David Kwarteng,Mobile Money
+O00949,05/04/2026,C081,Adwoa Issah,Central,SME,P003,USB-C Hub,Accessories,2,180,Akua Mensimah,Cash
+O00950,16/06/2026,C098,Grace Boadu,Eastern,Retail,P010,External SSD 1TB,Storage,1,756,Akua Mensimah,Cash
+O00951,19/03/2026,C085,Ibrahim Mensah,Northern,SME,P007,Office Laptop,Computers,3,4940,Francis Amoah,Bank Transfer
+O00952,16/08/2026,C063,Kofi Owusu,Greater Accra,SME,P003,USB-C Hub,Accessories,3,180,Benjamin Osei,Mobile Money
+O00953,05/07/2026,C025,Grace Agyeman,Western,Corporate,P001,Wireless Mouse,Accessories,10,85,David Kwarteng,Cash
+O00954,15/06/2026,C009,Mariam Ofori,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,1,99.75,David Kwarteng,Mobile Money
+O00955,16/01/2026,C005,Ama Owusu,Ashanti,Retail,P011,Flash Drive 128GB,Storage,1,,David Kwarteng,Mobile Money
+O00956,29/04/2026,C028,Linda Ofori,Greater Accra,Retail,P017,Network Switch,Networking,6,798,Benjamin Osei,Card
+O00957,11/01/2026,C119,Kojo Issah,Western,Retail,P003,USB-C Hub,Accessories,3,180,Francis Amoah,Mobile Money
+O00958,05/03/2026,C061,Kofi Boadu,Ashanti,Retail,P002,Mechanical Keyboard,Accessories,3,240,Akua Mensimah,Card
+O00959,21/08/2026,C081,Adwoa Issah,Central,SME,P002,Mechanical Keyboard,Accessories,1,228,David Kwarteng,Card
+O00960,30/07/2026,C107,Ibrahim Asare,Western,SME,P003,USB-C Hub,Accessories,4,171,David Kwarteng,Card
+O00961,21/04/2026,C009,Mariam Ofori,Greater Accra,Retail,P007,Office Laptop,Computers,1,5200,Cynthia Aidoo,Mobile Money
+O00962,06/02/2026,C088,Kojo Darko,Greater Accra,Retail,P018,Ethernet Cable 10m,Networking,1,95,Akua Mensimah,Card
+O00963,01/02/2026,C043,Yaw Addo,Greater Accra,Corporate,P003,USB-C Hub,Accessories,1,180,Benjamin Osei,Bank Transfer
+O00964,24/04/2026,C071, Kwame Mensah ,Central,Corporate,P006,Laptop Stand,Accessories,1,168,Akua Mensimah,Card
+O00965,20/07/2026,C013,Daniel Boadu,Western,Retail,P013,Webcam,Accessories,1,320,Akua Mensimah,Mobile Money
+O00966,24/01/2026,C001,Kwame Mensah,Northern,SME,P006,Laptop Stand,Accessories,3,168,Cynthia Aidoo,Cash
+O00967,28/06/2026,C089,Akosua Boadu,Greater Accra,Corporate,P016,Wi-Fi Router,Networking,1,590,Francis Amoah,Bank Transfer
+O00968,17/04/2026,C067,Samuel Quaye,Central,Retail,P015,Bluetooth Speaker,Audio,1,420,Esther Nyarko,Mobile Money
+O00969,04/07/2026,C077, Ibrahim Amankwah ,Greater Accra,Retail,P006,Laptop Stand,Accessories,2,152,Francis Amoah,Bank Transfer
+O00970,03/01/2026,C045,Kwame Amankwah,Northern,SME,P014,Noise-Cancelling Headset,Audio,2,650,Akua Mensimah,Mobile Money
+O00971,10/08/2026,C080,Yaw Agyeman,Greater Accra,SME,P012,External HDD 2TB,Storage,4,504,Esther Nyarko,Card
+O00972,13/03/2026,C060,Esi Mensah,Eastern,Corporate,P007,Office Laptop,Computers,1,4940,Benjamin Osei,Cash
+O00973,11/02/2026,C064,Akosua Darko,Ashanti,SME,P006,Laptop Stand,Accessories,3,152,Akua Mensimah,Bank Transfer
+O00974,23/04/2026,C037,Yaw Quaye,Northern,SME,P007,Office Laptop,Computers,1,5460,David Kwarteng,Mobile Money
+O00975,19/05/2026,C014,Grace Darko,Greater Accra,SME,P002,Mechanical Keyboard,Accessories,-1,228,David Kwarteng,Mobile Money
+O00976,05/07/2026,C010,Michael Appiah,Western,Retail,P008,Performance Laptop,Computers,2,8610,Cynthia Aidoo,Cash
+O00977,01/03/2026,C026,Ibrahim Boateng,Northern,SME,P011,Flash Drive 128GB,Storage,4,110,Benjamin Osei,Mobile Money
+O00978,12/08/2026,C031,Grace Asare,Western,Retail,P014,Noise-Cancelling Headset,Audio,1,650,Akua Mensimah,Cash
+O00979,15/01/2026,C075,Grace Boateng,Greater Accra,SME,P016,Wi-Fi Router,Networking,5,590,Benjamin Osei,Cash
+O00980,07/04/2026,C023,Akosua Boadu,Northern,,P013,Webcam,Accessories,1,320,Francis Amoah,Bank Transfer
+O00981,28/03/2026,C035,Efua Darko,Central,Retail,P007,Office Laptop,Computers,1,5460,Akua Mensimah,Bank Transfer
+O00982,08/08/2026,C018,Kofi Quaye,western,Retail,P004,24-inch Monitor,Displays,2,1450,Benjamin Osei,Bank Transfer
+O00983,05/06/2026,C029,Mariam Issah,Northern,SME,P010,External SSD 1TB,Storage,1,756,Benjamin Osei,Card
+O00984,09/08/2026,C012,Akosua Agyeman,Greater Accra,SME,P014,Noise-Cancelling Headset,Audio,2,650,Esther Nyarko,Cash
+O00985,14/03/2026,C108,Joseph Boateng,Northern,SME,P015,Bluetooth Speaker,Audio,1,420,Francis Amoah,Card
+O00986,23/04/2026,C032,Kofi Tetteh,Eastern,Corporate,P011,Flash Drive 128GB,Storage,2,115.5,Benjamin Osei,Mobile Money
+O00987,12/01/2026,C054,Samuel Darko,Ashanti,SME,P002,Mechanical Keyboard,Accessories,10,252,Akua Mensimah,Cash
+O00988,04/05/2026,C068,Kwame Owusu,Northern,SME,P013,Webcam,Accessories,4,304,David Kwarteng,Cash
+O00989,24/05/2026,C031,Grace Asare,Western,Retail,P003,USB-C Hub,Accessories,4,180,Benjamin Osei,Card
+O00990,04/03/2026,C046,Priscilla Boadu,Ashanti,Retail,P010,External SSD 1TB,Storage,3,684,Akua Mensimah,Cash
+O00991,12/02/2026,C086,Kojo Mensah,Eastern,SME,P010,External SSD 1TB,Storage,3,756,Francis Amoah,Mobile Money
+O00992,18/07/2026,C059,Kwame Boateng,Ashanti,Retail,P015,Bluetooth Speaker,Audio,1,420,Benjamin Osei,Bank Transfer
+O00993,01/07/2026,C081,Adwoa Issah,Central,SME,P015,Bluetooth Speaker,Audio,3,,David Kwarteng,Bank Transfer
+O00994,18/03/2026,C068,Kwame Owusu,Northern,SME,P002,Mechanical Keyboard,Accessories,2,240,Francis Amoah,Card
+O00995,09/06/2026,C101,Kofi Appiah,Western,Retail,P003,USB-C Hub,Accessories,5,171,Esther Nyarko,Bank Transfer
+O00996,30/01/2026,C114,Ibrahim Tetteh,Central,Corporate,P002,Mechanical Keyboard,Accessories,2,240,Esther Nyarko,Mobile Money
+O00997,15/02/2026,C047,Daniel Quaye,Ashanti,Corporate,P012,External HDD 2TB,Storage,3,456,Esther Nyarko,Card
+O00998,04/03/2026,C018,Kofi Quaye,Western,Retail,P011,Flash Drive 128GB,Storage,2,110,Francis Amoah,Card
+O00999,25/03/2026,C097,Grace Appiah,Greater Accra,Retail,P008,Performance Laptop,Computers,2,8200,Esther Nyarko,Cash
+O01000,18/01/2026,C036,Kojo Amankwah,Greater Accra,Retail,P002,Mechanical Keyboard,Accessories,2,240,David Kwarteng,Mobile Money
+O00065,24/05/2026,C032,Kofi Tetteh,Eastern,Corporate,P004,24-inch Monitor,Displays,4,1522.5,Esther Nyarko,Card
+O00023,21/06/2026,C018,Kofi Quaye,Western,Retail,P015,Bluetooth Speaker,Audio,2,441,Esther Nyarko,Bank Transfer
+O00893,15/02/2026,C070,Kojo Sarpong,Northern,Corporate,P008,Performance Laptop,Computers,3,7790,Francis Amoah,Cash
+O00822,15/08/2026,C098,Grace Boadu,Eastern,Retail,P011,Flash Drive 128GB,Storage,8,110,Cynthia Aidoo,Cash
+O00238,14/02/2026,C076,Ibrahim Owusu,Greater Accra,Corporate,P005,27-inch Monitor,Displays,3,2310,Cynthia Aidoo,Mobile Money
+O00855,08/06/2026,C119,Kojo Issah,Western,Retail,P005,27-inch Monitor,Displays,2,2310,Francis Amoah,Cash
+O00971,10/08/2026,C080,Yaw Agyeman,Greater Accra,SME,P012,External HDD 2TB,Storage,4,504,Esther Nyarko,Card
+O00533,03/07/2026,C078,Kofi Asare,Central,SME,P010,External SSD 1TB,Storage,8,720,David Kwarteng,Cash
+O00661,15/06/2026,C010,Michael Appiah,Western,Retail,P017,Network Switch,Networking,1,760,Benjamin Osei,Card
+O00344,23/07/2026,C050,Daniel Issah,Western,Retail,P005,27-inch Monitor,Displays,10,2090,Esther Nyarko,Bank Transfer
+O00422,04/06/2026,C032,Kofi Tetteh,Eastern,Corporate,P018,Ethernet Cable 10m,Networking,3,99.75,Cynthia Aidoo,Mobile Money
+O00593,07/06/2026,C014,Grace Darko,Greater Accra,SME,P009,Tablet,Computers,1,2945,David Kwarteng,Card

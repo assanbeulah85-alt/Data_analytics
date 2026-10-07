@@ -1,0 +1,19 @@
+ProductID,ProductName,Category,UnitPrice
+P001,Wireless Mouse,Accessories,85
+P002,Mechanical Keyboard,Accessories,240
+P003,USB-C Hub,Accessories,180
+P004,24-inch Monitor,Displays,1450
+P005,27-inch Monitor,Displays,2200
+P006,Laptop Stand,Accessories,160
+P007,Office Laptop,Computers,5200
+P008,Performance Laptop,Computers,8200
+P009,Tablet,Computers,3100
+P010,External SSD 1TB,Storage,720
+P011,Flash Drive 128GB,Storage,110
+P012,External HDD 2TB,Storage,480
+P013,Webcam,Accessories,320
+P014,Noise-Cancelling Headset,Audio,650
+P015,Bluetooth Speaker,Audio,420
+P016,Wi-Fi Router,Networking,590
+P017,Network Switch,Networking,760
+P018,Ethernet Cable 10m,Networking,95
