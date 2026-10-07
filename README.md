@@ -1,364 +1,189 @@
-Sales Management Dashboard
+ Sales Management Dashboard
 
-
-
-&#x20;Business Problem
-
-
+ Business Problem
 
 The business needs a clear and interactive way to monitor sales performance and identify important patterns in revenue, customers, products, regions, categories and salespeople.
 
+The objective of this project was to transform relational sales data into a Power BI management dashboard that allows decision-makers to understand sales performance and explore important patterns, validated against SQL analysis and supported by evidence-based business insights.
 
+The analysis focuses on questions such as:
 
-The objective of this project was to transform the available relational sales data into a Power BI management dashboard that allows decision-makers to quickly understand sales performance and explore the data using interactive filters.
+* What is the total revenue generated?
+* How many orders and customers are represented in the data?
+* What is the average order value?
+* How does revenue change over time, including month-over-month growth?
+* Which regions generate the most revenue?
+* Which product categories and products generate the most revenue?
+* How do salespeople compare?
+* Which payment methods are most frequently used?
+* Which customers and products show unusual patterns?
 
+ Tools Used
 
+* Excel — initial data cleaning and exploratory analysis
+* MySQL (via XAMPP / phpMyAdmin) — relational database and SQL analysis
+* Power BI Desktop — data modeling, DAX measures, and the interactive dashboard
+* Git / GitHub — version control and project handover
 
-The dashboard focuses on answering questions such as:
+ Dataset
 
+The project uses three related CSV datasets:
 
+ 1. Customers
 
-\* What is the total revenue generated?
+* CustomerID
+* CustomerName
+* Region
+* Segment
 
-\* How many orders and customers are represented in the data?
+ 2. Products
 
-\* What is the average order value?
+* ProductID
+* ProductName
+* Category
+* UnitPrice
 
-\* How does revenue change over time?
+ 3. Orders
 
-\* Which regions generate the most revenue?
+* OrderID
+* OrderDate
+* CustomerID
+* ProductID
+* Quantity
+* UnitPrice
+* SalesPerson
+* PaymentMethod
 
-\* Which product categories perform best?
+Note: the source data contains no Revenue column. Revenue is calculated throughout this project as `Quantity × UnitPrice`.
 
-\* Which products generate the most revenue?
+The three tables are related through their customer and product identifiers.
 
-\* How does sales performance differ between salespeople?
+ Data Cleaning and Preparation
 
+Data preparation was carried out during the Excel and SQL stages of the project. The process included:
 
+* Investigating unusual and inconsistent values.
+* Checking for duplicate OrderID records.
+* Reviewing quantity values and identifying invalid or negative quantities.
+* Checking for null/missing keys (CustomerID, ProductID).
+* Checking date formatting and converting OrderDate for time-based analysis.
+* Checking for unmatched CustomerID/ProductID values between tables.
+* Creating and validating revenue calculations (Quantity × UnitPrice).
+* Reviewing regional and categorical values for consistency.
+* Investigating unit price variation — every product consistently sells at three price points (approximately 95%, 100%, and 105% of a base price), a pattern that is consistent but not explained by any available field.
 
-&#x20;Dataset
+The validated relational data was then used for business analysis and Power BI reporting.
 
+ Data Model
 
+The Power BI data model consists of four tables:
 
-The dashboard uses three related CSV datasets:
+* customers — one row per customer
+* products — one row per product
+* orders — one row per transaction (the fact table)
+* DateTable — a dedicated calendar table, created with `CALENDAR(MIN(orders[OrderDate]), MAX(orders[OrderDate]))`, covering every calendar day in the dataset's range with no gaps
 
+Relationships:
 
+| From | To | Cardinality | Direction |
+|---|---|---|---|
+| orders (CustomerID) | customers (CustomerID) | Many-to-one | Single |
+| orders (ProductID) | products (ProductID) | Many-to-one | Single |
+| orders (OrderDate) | DateTable (Date) | Many-to-one | Single |
 
-1\. Customers
+Why a separate Date table was used: Power BI's `DATEADD()` function, used for the month-over-month revenue comparison, requires a contiguous date column with no gaps. `orders[OrderDate]` only contains dates where a sale actually occurred, so it has gaps. The dedicated DateTable, marked as an official date table, provides the unbroken daily calendar that time-intelligence functions need. All date-based slicers and chart axes in the report use `DateTable[Date]` rather than `orders[OrderDate]`, so filtering correctly flows through to the time-intelligence measures.
 
+ KPI Definitions
 
+| Measure | DAX | Definition |
+|---|---|---|
+| Total Revenue | `SUMX(orders, orders[Quantity] * orders[UnitPrice])` | Sum of Quantity × UnitPrice across all orders. |
+| Total Orders | `COUNTROWS(orders)` | Count of transaction rows. |
+| Average Order Value | `DIVIDE([Total Revenue], [Total Orders])` | Total Revenue divided by Total Orders. |
+| Total Customers | `DISTINCTCOUNT(orders[CustomerID])` | Count of unique customers who placed at least one order. |
+| Previous Month Revenue | `CALCULATE([Total Revenue], DATEADD(DateTable[Date], -1, MONTH))` | Total Revenue shifted back one month, using the DateTable's contiguous calendar. |
+| Monthly Revenue Growth % | `DIVIDE([Total Revenue] - [Previous Month Revenue], [Previous Month Revenue])` | Percentage change vs. the previous month. Most meaningful when filtered to a single month; at the full-range level it approaches 0%, since the current and shifted ranges mostly overlap. |
 
-Contains customer information, including:
+Current overall values (full dataset, no filters applied):
 
+* Total Revenue: GH₵3,458,371.25
+* Total Orders: 1,000
+* Average Order Value: GH₵3,458.37
+* Total Customers: 120
+* Previous Month Revenue (example, single-month context): GH₵3.14M
+* Monthly Revenue Growth (example, single-month context): 10.06%
 
+These KPIs provide management with a quick overview of overall sales performance and recent revenue movement.
 
-\* CustomerID
-
-\* CustomerName
-
-\* Region
-
-\* Segment
-
-
-
-2\. Products
-
-
-
-Contains product information, including:
-
-
-
-\* ProductID
-
-\* ProductName
-
-\* Category
-
-\* UnitPrice
-
-
-
-3\. Orders
-
-
-
-Contains transaction-level sales information, including:
-
-
-
-\* OrderID
-
-\* OrderDate
-
-\* CustomerID
-
-\* ProductID
-
-\* Quantity
-
-\* UnitPrice
-
-\* Salesperson
-
-\* PaymentMethod
-
-
-
-The three tables were imported into Power BI and connected using their related customer and product identifiers.
-
-
-
-\## Data Cleaning and Preparation
-
-
-
-Data preparation was carried out during the earlier Excel and SQL stages of the project.
-
-
-
-The cleaning process included:
-
-
-
-\* Investigating unusual and inconsistent values.
-
-\* Checking for duplicate records.
-
-\* Reviewing quantity values and identifying negative quantities.
-
-\* Correcting identified data-quality issues where appropriate.
-
-\* Checking date formatting and ensuring dates could be used for time-based analysis.
-
-\* Creating revenue calculations from quantity and unit price.
-
-\* Reviewing region and other categorical values for consistency.
-
-\* Preparing the relational Customers, Products and Orders tables for analysis.
-
-
-
-The cleaned relational data was then imported into Power BI.
-
-
-
-\## SQL Analysis
-
-
-
-SQL was used before the Power BI stage to perform business-focused analysis on the sales data.
-
-
-
-The analysis included:
-
-
-
-\* Transaction counts.
-
-\* Total revenue.
-
-\* Average order value.
-
-\* Monthly revenue.
-
-\* Salesperson performance.
-
-\* Top products by revenue.
-
-\* Revenue by region.
-
-\* Revenue by product category.
-
-\* Top customers.
-
-\* Best-performing products by region.
-
-\* Customers with no matching orders.
-
-
-
-JOINs were used to combine the Customers, Products and Orders tables. A LEFT JOIN was also used to identify customers without matching orders, and a Common Table Expression (CTE) was used for customer-level revenue analysis.
-
-
-
-This SQL analysis provided the foundation for the Power BI dashboard.
-
-
-
-&#x20;Power BI Data Model
-
-
-
-The dashboard uses a relational data model consisting of:
-
-customers.csv, products.csv, orders.csv
-
-
-
-Orders contains the transaction records and connects customers through CustomerID and products through ProductID.
-
-
-
-Power BI relationships allow information from the three tables to be analysed together.
-
-
-
-&#x20;KPIs
-
-
-
-The dashboard contains four main KPI cards:
-
-
-
-1\. Total Revenue
-
-
-
-Measures the total revenue generated from the sales transactions.
-
-
-
-2\. Total Orders
-
-
-
-Measures the number of orders/transactions represented in the dataset.
-
-
-
-3\. Average Order Value
-
-
-
-Shows the average revenue generated per order.
-
-
-
-4\. Total Customers
-
-
-
-Shows the number of customers represented in the customer data.
-
-
-
-These KPIs provide a quick overview of overall sales performance.
-
-
-
-&#x20;Dashboard Visualizations
-
-
+ Dashboard Visualizations
 
 The dashboard includes:
 
+* KPI cards (Total Revenue, Total Orders, Average Order Value, Total Customers, Previous Month Revenue, Monthly Revenue Growth %)
+* Monthly revenue trend
+* Revenue by region
+* Revenue by product category
+* Top products by revenue
+* Salesperson performance
+* Interactive date, region and category slicers
+* A drill-through page ("Product Details") — accessible from the Top Products chart, showing order-level detail filtered to the selected product
+* A Data Notes page documenting known data limitations and assumptions
 
+The dashboard was designed to provide a management-level view while allowing users to investigate different parts of the sales data.
 
-\* Monthly revenue trend
+ Key Findings
 
-\* Revenue by region
+Full detail, evidence, and recommendations are documented in `executive_summary.md` and `day9_management_answers.md`. Summary highlights:
 
-\* Category performance
+* Revenue fluctuates considerably rather than trending steadily — May was strongest (GH₵602,685.75, +65.03% vs. April), June and August both declined sharply (-42.04% and -39.22% respectively).
+* Greater Accra and Western lead regionally (22.67% and 19.77% of revenue respectively), but revenue is not concentrated in one region — every region contributes at least 12.58%.
+* Computers is the top category (GH₵2,164,050.00) despite modest unit volume (388 units), while Accessories sold the most units (758) but generated far less revenue (GH₵151,598.00) — volume does not predict revenue.
+* Performance Laptop and Office Laptop are the top two products (GH₵1,052,880.00 and GH₵769,860.00 respectively).
+* Customer value does not track order frequency — e.g. Kojo Sarpong generated GH₵62,199.00 from 12 orders (AOV GH₵5,183.25), while Priscilla Issah generated GH₵22,943.00 from 15 orders (AOV GH₵1,529.53).
+* Salesperson revenue does not track order count — Francis Amoah led in revenue (GH₵699,100.50) and AOV (GH₵4,315.44), while Benjamin Osei had the most orders (176) but lower revenue (GH₵558,175.50).
+* Payment methods are balanced, with Cash the most common (27.70%) but no method dominant.
+* Unit prices vary by ±5% per product across orders, a consistent but unexplained pattern.
 
-\* Top 5 products by revenue
+## Evidence-Based Recommendations
 
-\* Salesperson performance
+1. Investigate major monthly revenue changes — particularly the 42.04% decline in June and 39.22% decline in August — before using monthly figures for forecasting.
+2. Prioritize high-value products and customers over high-volume ones — continue supporting Computers-category products like the Performance Laptop, while reviewing weaker performers like the Wireless Mouse (GH₵9,945.00 from 117 units) for pricing or positioning issues.
+3. Use the dashboard regularly to monitor performance — the KPI cards, monthly trend, growth measures, slicers, and drill-through together support ongoing monitoring and early identification of emerging patterns.
 
-\* KPI cards
+## Assumptions and Limitations
 
-\* Interactive date, region and category slicers
+* The available analysis period covers January to August 2026; August may be a partial month, as the dataset's date range ends August 25.
+* Revenue is a derived field, calculated as Quantity × UnitPrice — any inaccuracy in the underlying quantity or price data would directly affect every revenue-based result.
+* Unit price variation is unexplained — every product sells at three consistent price points (~95%, 100%, 105% of a base price), assumed intentional but not documented in the source data.
+* The analysis identifies relationships and patterns but does not establish causes unless supporting evidence is available.
+* Conclusions may change if additional transactions, customers, products, or business context become available.
 
+ SQL Analysis
 
+SQL was used throughout the project to perform business-focused analysis on the relational sales data, including:
 
-The dashboard was designed to provide a simple management-level view while allowing users to filter and explore the sales data.
+* Transaction counts, total revenue, average order value
+* Monthly revenue trend and month-over-month change (via CTE)
+* Revenue by region and by product category
+* Top products and top customers, including product ranking via window functions (`ROW_NUMBER()` / `RANK()`)
+* Customers whose spend is above the overall customer average
+* Salesperson performance and payment method analysis
+* Customer/product validation (duplicates, nulls, unmatched keys)
+* A reusable view, `vw_sales_analysis`, joining the main tables for analysis-ready querying
 
+JOINs (including LEFT JOIN, for customers with no matching orders) were used to combine the Customers, Products and Orders tables. Key KPIs were reconciled between SQL and Power BI to confirm consistency — see `day8_validation.md`.
 
+ Setup / Run Instructions
 
-&#x20;Insights
+1. Import `customers.csv`, `products.csv`, and `orders.csv` into MySQL using the structure in `sql/database_setup.sql`.
+2. Run the queries in `sql/day5_queries.sql`, `sql/day6_advanced_analysis.sql`, and `sql/day8_validation_and_advanced.sql` in order to reproduce the SQL-side analysis.
+3. Open `powerbi/sales_dashboard_final.pbix` in Power BI Desktop to view and interact with the dashboard. No sign-in is required to open or view the file locally.
+4. Refer to `day8_validation.md` for QA checks and `executive_summary.md` / `day9_management_answers.md` for business findings.
 
+ Conclusion
 
+This project demonstrates an end-to-end data analytics workflow, from data cleaning and validation through SQL analysis and interactive business intelligence reporting.
 
-The following insights were identified from the Power BI dashboard:
+The Power BI dashboard brings together customer, product and order information into a single management view, validated against SQL results, allowing users to monitor key sales metrics and investigate performance across time, regions, categories, products, customers, salespeople and payment methods.
 
-
-
-1\. Greater Accra is the highest-performing region, generating GH₵780,437.5 in revenue — around 23% of total revenue across all six regions.\*\*
-
-
-
-2\. Eastern is the lowest-performing region, generating GH₵423,577.25, roughly 46% less than Greater Accra. The gap is notable but not extreme; the middle four regions form a fairly even gradient between the two.
-
-
-
-3.. Computers is the highest-performing product category, generating approximately GH₵1.77M — roughly half of total revenue on its own. This aligns with the Top Products chart, where the two best-selling items (Performance Laptop, Office Laptop) both fall under Computers, suggesting the category's strength is concentrated in a couple of high-value products rather than spread evenly across it.
-
-
-
-4\. The Performance Laptop is the top-performing product, generating GH₵984,000 — about 29% of total revenue on its own.\*\* Together with the Office Laptop (GH₵769,860), the top two products account for roughly 52% of all revenue.
-
-
-
-5\. Salesperson performance is comparatively even. Francis Amoah is the top performer (GH₵627,506.5) and Esther Nyarko the lowest (GH₵529,724.25) — a gap of about 18%, much narrower than the spread seen across products or regions.
-
-
-
-6\. Monthly revenue shows no steady upward or downward trend; it fluctuates. Revenue peaks in May (GH₵602,685.75) and dips in June (GH₵349,313) and August (GH₵316,055). The August figure should be treated with caution, as the dataset's date range ends mid-month and may not represent a full month.
-
-
-
-7\. Revenue is concentrated in a small number of products. The eight lowest-selling products combined contribute less than 4% of total revenue, indicating a long tail of low-impact items.
-
-
-
-8\. Unit prices for individual products vary across orders rather than staying fixed. Each product consistently appears at three price points — approximately 95%, 100%, and 105% of a base price — across different transactions. This pattern is consistent enough to be intentional (e.g. a discount or price-adjustment policy) rather than a data error, but the dataset does not explain its cause.
-
-
-
-These insights describe patterns observed in the available sales data. They do not assume the reasons behind those patterns unless supported by additional evidence.
-
-
-
-\## Evidence-Based Recommendations
-
-
-
-Based on the patterns identified in the Power BI dashboard:
-
-
-
-1\. \*\*Focus attention on high-performing regions and categories.\*\*
-
-&#x20;  Management can examine the products and sales activity contributing to stronger revenue performance and consider how successful practices can be maintained or replicated.
-
-
-
-2\. \*\*Review underperforming regions, products and categories.\*\*
-
-&#x20;  Areas generating comparatively lower revenue should be investigated further to determine whether product demand, sales activity, pricing or other business factors may be contributing to the difference.
-
-
-
-3\. \*\*Use the dashboard regularly to monitor sales performance.\*\*
-
-&#x20;  Management can use the KPI cards, monthly trend and interactive slicers to monitor changes over time and identify emerging patterns that require further investigation.
-
-
-
-\## Conclusion
-
-
-
-This project demonstrates an end-to-end data analytics workflow, from data cleaning and SQL analysis to interactive business intelligence reporting.
-
-
-
-The Power BI dashboard brings together customer, product and order information into a single interactive view, allowing management to monitor key sales metrics and investigate performance across time, regions, categories, products and salespeople.
-
-
-
-The project demonstrates the use of data preparation, relational data modelling, SQL, DAX measures and Power BI visualization to communicate business information to non-technical stakeholders.
-
+The project demonstrates practical use of data preparation, relational data modelling, SQL, DAX measures, time-intelligence calculations, and Power BI visualization to communicate evidence-based business information to non-technical stakeholders.
